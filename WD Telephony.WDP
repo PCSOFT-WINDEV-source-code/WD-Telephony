@@ -1,0 +1,181 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Telephony
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Telephony project
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Telephony
+    internal_properties : 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
+    configuration_id : 8694135705592359197
+    type : 1
+    generation_name : WD Telephony.exe
+    version :
+     major_version : 22
+     minor_version : 37
+     internal_generation_version : 3
+     autoincrement_version : false
+    icon_filename : .\PHONE.ICO
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4ac47c2b00159de8
+  elements :
+   -
+     name : CJournalLog
+     identifier : 0x3db51a583101a7ca
+     internal_properties : CAAAAAgAAABSqIqeLRoSzeppbNBB1tYGqvuhqUgT4k6vhYOCV8VXkbu7OHEc9L7As21XoWGfW023vw==
+     physical_name : .\CJournalLog.wdc
+     type : 4
+   -
+     name : WIN_CONFIGURATION
+     identifier : 0x3db51a593ae7a7de
+     internal_properties : CAAAAAgAAABexLZqWQYuwY5dEOSFCwrCljllZXbBIxjIgIGzno4OynaEc7bYMPL051FLtX1zD4FLyw==
+     physical_name : .\WIN_CONFIGURATION.wdw
+     type : 2
+   -
+     name : WIN_CONTACT_CALL
+     identifier : 0x3db51a5c7f2fa810
+     internal_properties : CAAAAAgAAADeRDbq2YauQQ7dkGQFjAY+7qPNfQiriDbltGGQoZtxp13x4jdYsHJ0Z9HLNf3zjwHLSw==
+     physical_name : .\WIN_CONTACT_CALL.wdw
+     type : 2
+   -
+     name : WIN_INCOMING_CALL
+     identifier : 0x3db51a5d55f1a824
+     internal_properties : CAAAAAgAAADfuzfr2IWtvgncn2cwkBvjG7jmPi19PuMqn/dP0Wsr1W+BDB1lo29zZtDKNv7yjgLKSg==
+     physical_name : .\WIN_INCOMING_CALL.wdw
+     type : 2
+   -
+     name : WIN_DEVICE_SELECTION
+     identifier : 0x3db51a5e3c66a842
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2eZlaFzNRsISVve99WSq/H7gSOJt7y3nGSs7uPGQeDq8v3ljXSXbpxnjYw==
+     physical_name : .\WIN_DEVICE_SELECTION.wdw
+     type : 2
+   -
+     name : Global procedures of WD Telephony
+     identifier : 0x3db51a60088aa86a
+     internal_properties : CAAAAAgAAACb90NHZCGJkl0gE5uE5y8/pzpmfu9S80lX4vMVHh78xGCcdaThL/P3+iSeGppWIpZ+hg==
+     physical_name : .\Global procedures of WD Telephony.wdg
+     type : 7
+   -
+     name : SET_HFSQLTEST
+     identifier : 0x425d05c3025476b3
+     internal_properties : CAAAAAgAAADPSyd7yPW97vmMD/egNHuLawgmftuCiNGwEKsaIx/3GTvlyNG1E9/jloB6Rs4C/vLaWg==
+     physical_name : .\SET_HFSQLTEST.wdg
+     type : 7
+   -
+     name : WIN_CALL
+     identifier : 0x3db51a5f0c4aa856
+     internal_properties : CAAAAAgAAAAOFGa6iTZ+sb5NwDR130qa1mklBebZPzcicBz3erJajqK4P2oo4KIk10G7BY1DP7EbGw==
+     physical_name : .\WIN_CALL.wdw
+     type : 2
+   -
+     name : TEST_SET_HFSQLTEST
+     identifier : 0x425d05d00256a92d
+     internal_properties : CAAAAAgAAADrZ9M39LH5Ii2wY8tUydNrf34GXnkoeDdI6uIjynga5h7WI3YR/8PHirQuigrGsibudg==
+     physical_name : .\TEST_SET_HFSQLTEST.wxt
+     type : 17
+  other_elements : []
+  analysis : .\WD Telephony.ana\WD Telephony.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - en-GB
+ wd_style_sheet : ".\\WD Telephony.sty\r\n.\\WD8 Telephony.sty"
+ code_elements :
+  internal_properties : CAAAAAgAAACi3YG96cNVOUwrwPbLnyfN2spiwAz5rcS1tiHbI+m+V0mTwnG70UGinXKQ7lZa06DooxVjv8KzTI9jmkNx/7oFwNYbUfnHrOAGcqLJEkzcaIHQ1X9oTVcZrKrWDNYi7LTu76sf3wDe/ygX9q+UB40DA+kDpEmAUBtvIunHCNpKYvxFpy2MJWvq
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAC0XVY8Y5Z4E7ewxxQBAiwvwHKNeVFaU6Y2poRZjUaMIc7Moz5aFgfHOy0Vj8pQctO1CjgTPAP84vypcyuL1hRT+kRUNfEldxfQ/OOVmrcApympDzhPj7MQlkxj9MYb8HMX3Ei0N4ex1ubocRpmblZz4LdYKfDfr+eSeKeDsmaVF0hHlH3i7lmWKUZuyQwYI2Hw
+     code : |1-
+      GLOBAL
+      	clJournalLog is CJournalLog("calls.log")
+      
+      	gcvConfig is composed of
+      		bPlaySounds is boolean			// Play sounds in application
+      		bMinimizeLoad is boolean		// Minimize the application when it is loaded
+      		bMinimizeClose is boolean		// Minimize when asking to close
+      		bLogFile is boolean			// Use a log file (log)
+      		bNotifyEmail is boolean		// Notification by email of the identified messages
+      		sSMTPServer is string			// SMTP server for sending emails
+      		sEmailAddress is string		// Email address of recipient
+      		sEmailSubject is string			// Subject of the notification email
+      	END
+      	
+      	gsDevice is string			// Name of the TAPI-compatible device to use
+      	
+      EXTERN "WINCONST.WL"
+      
+      
+      CONSTANT
+      	INCOMING_CALL	= "INCOMING_CALL"
+      	PHONE_CALL		= "PHONE_CALL"
+      	END_PHONE_CALL	= "END_PHONE_CALL"
+      	INFO_PHONE_CALL	= "INFO_PHONE_CALL"
+      	NOTIFICATION	= "NOTIFICATION"
+      END
+      
+      // Create the Contact file if necessary
+      HCreationIfNotFound(CONTACT)
+      
+      // Load the configuration 
+      LoadConfiguration()
+      IF InAutomaticTestMode() = False THEN
+      	// Selected device?
+      	IF gsDevice ~= "" THEN
+      		Open(WIN_DEVICE_SELECTION)
+      	END
+      END
+     type : 196608
+   -
+     code : |1-
+      
+      // Save the configuration
+      SaveConfigutation()
+     type : 196610
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Telephony
+     identifier : 0x4ac47c2b001d9eb3
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Calls.log
+     index : 0
+   -
+     text :
+      en-GB : Demo
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

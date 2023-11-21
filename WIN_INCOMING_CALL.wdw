@@ -1,0 +1,342 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_INCOMING_CALL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_INCOMING_CALL
+ identifier : 0x286e0b880ca00319
+ internal_properties : CAAAAAgAAABX6IMktMPpea/qrcR+C9qA//GzxUxBROgu1ie7JzpT9i4rXWNk33jpHRXw1ceG3MmQ23UFjdTsgnVev7ok5Gl55Bx9WebMm0+53uivNXmXmj5yW5SRw+1Ps9nup/D+blQjRb2e6WHynLJaCTkdtR6feY0B/iTgasZI8Urq9YsKkTn2STDVzMgU/6En0L2riikaFq1vnBu8Sedx8KoX7N7L3DRCOc3lxijkbBTJKPvzuMgVuqiWRPGAWauRsXLo3QbY6y1yaD0Ky4q48siSS8mkz5EbZw9EAAZgsw7gJJBi7UXEWnAfCdc+unduYyjd4ystySSCMKA7dQmHKICr3E2wDpfFq9Y6ucrn4d1M/D52CzT6qV62uvAc7nuvAKQJn0m9cF89i/om1T9DMOSKxSuejHzZo10hBXdsp4pT5nLKpNb925bP1fFSWsAhni8E9UFZXyxhcIYVbDYkbsGkLTYqFRtPjh6WSMvnuUbZyeUAo2wfry3V8NiHrvGw7OV9VihvtSbfQDBlCVvGqSD9kPIKP43YBJObkQX30GnoHEwWyP8sjFAVQn9lbIPq/stQq/L46fDKYtJCET/M97H64YPnZAYBI41PG7I8v8faU5GLuqEPKB5o7KpzBu+wxFc1oHFOWjnAUsZg+bXWncC9hRjMvkAYSZCOUBiKzic/OJluVkIoecQKseWMTjSDf8btfwXcbDp8NYdxvKq7ESaRVUAhbtiJc3zMimWNThe/J6LSv2wgL8HxaBz+zqQi3R8fO5/1P5nAR+csg+M7OMFWgFP2NStL7UXZlTyGiHDrBINIAdag7wWJ0wylplU8W9Lj7ELT
+ properties :
+  width : 453
+  height : 250
+  widthClient : 451
+  heightClient : 218
+ controls :
+  -
+    name : STC_Static1
+    identifier : 0x286e0b880ca20319
+    internal_properties : CAAAAAgAAABay3j98dUkegMn1KT+6awzLu8kEr/KWzmNsyrT7LXVjvdiKFUarYaYcWauQA59CE7o62jGOzQvWA0Df0g7LeIw5ao/BIw9CQkkEXaSx67wZ9EyBa8D2JTY2gWkNomsMcuNWzILBXLzaBeeZEbM8Am90Zk3kw+yVIdh8jSIPTwNBPCtck/8huPccfPr57SzorXbMIQ1qzHlLs8Y/aU65J10GRR2PDsvvbbsUQYg2ZbN+od9ppxZ2+FnOYct8QqqOTIheR8L+ARNnFtWRVOvoobqfMO9bS1TZbFYevnmPJgsTYQdlsWiHvsbttddv86gm7M8xl6T7FGyzLqV+qdPK1QXp1n9b2qAQ99kI7l0EE8iUrsRctkpuTEnru7LyH+PHmfwnmFNzV51yK3tJwtBZDFuIenCEDDwlpAbldnbqyldJwD3pFPxfXi99JbzoUHIbfD/I7+tE7z2MvsPEMkonAG4DzfB1ltto9BAkPT+hBFzk/MwvDnsA+UF0FfrfYf9tFtBvc9D7zXWyUEpcUOgYmHB+Lt9V/UzZE2YsA==
+    properties :
+     x : 6
+     y : 6
+     width : 218
+     height : 32
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Static2
+    identifier : 0x286e0b880ca10319
+    internal_properties : CAAAAAgAAAAriPb5gdqMcDDtxp3gj4BpPgdti9sj5LZCEQA4u0wW7xsJ0WMAysZB0ssysl0bmuVSdrjN2IhSwE9hZRsn8SkKwDFpkN2m/lnX3NJgMSC1+O2p8hZKvkemR+kX1iyqbG7TrISh2vFJOkLT7exA4E2Vq3Tdi8h4es9lFrdqFnG6K4asPKF1C+bt1rhe7hP1AY8Ej7Frt+YIDKZfIzZL/ds+rdmEdD3I0qDNoFAwDNFQ8Xa6x/+aePgrYQGEhrAPt/+2pEKh69C0TYpmwcAaAlIQZLTiV/W/BZWYeZ2ysGkalhHg4S6nPZ5oD/+6cYHpfMxsr13JQL+96NqslyqNYn9obUjKaQPhjOcQAQ8wxyVrnJ1MC79yXOnNqGdin8fE0B/fvtRMD1nY6JRNbg0fMBgWv5RsR+KU95aKiTecJRSdIdoPXxOXHUnsJxlBd59VT2AqaQyTvjwWxLm2cJvSR2UfT/aEvhWXALmkT4v4PKKi+ufku2mAcnrayabWK1/r1L1GSYax
+    properties :
+     x : 6
+     y : 44
+     width : 437
+     height : 133
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Static3
+    identifier : 0x286e0b880ca30319
+    internal_properties : CAAAAAgAAADIJ0KSpFgaBnriXlY1T4AIUEbqkUsAaG8ThkkhItaetxoT+IlIqGwZ7d7TC+RmBbG9GKqui1t6kHpNX1Soes0/fR5jsw/sVoEn+v6TGD6Z4KAkS2/a6jzgRSkIKeyosk6CQoDOsC0qpl5jXUwiMp1c2zjwDGDRL1VtJ5K6cWyFH8dhVnTKCQp7iFAIQIbtn5przz+hWO4CpDUj4RumpS35W3NtGFzrIgJKCkgDAms8o3/GrZSuERablQqqK8d+I7qKA4SUXx4iRLjAvnqGU6/2EYSlxT/CdzIBm+d0DtnMxCFHguy5DQxgTHnnJ6cqbVtx2NXnGHN/J8GMM3vgZlc9TkDhU7Y47b6q7ykLOXq0sn25d0W6ydje1p2itoAjJvzk7EoqMlF7MLUJGQ2r7N/874BWrrdPFrydK8up7AQA75y0buEm0N4HRSx3vJK3cDhrvpyOnabfBfyHUq0j8SmzUOwsDOJWb6hcv4Zs7LTnJA==
+    properties :
+     x : 13
+     y : 64
+     width : 125
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Static4
+    identifier : 0x286e0b880ca40319
+    internal_properties : CAAAAAgAAADJe4wB2CFKCPD2OLC7TgZtz+swWx/cECAM1gCpQQDyHuucef5KhOefN+kVmmS7si0MAIWHX11/osLKKvBNH8Gp528loET35Rt8NrVT5qxgtNz29gCdEoySdNGgate09nJT4fS5nt89eDNaVo805akXbBBbV0s/iJ5HefceOBUaiYsk9vAe96kTvI+UncBCw8v0lxn9N3SJwb+fR+Gl3wYmVhBadZA/TPLheglRd7YB2UzhbnKT79RKpK68NU28EFCXwTJKNNe879NcbFCksTR09tw3r1BDk+tQ+YPUUkkrhhAV6KpeQmQJARmfe3vqwBdWCk2ba16H2KpU+YH+tKqt1UjTXSsBYd11vyNN10jzDs4r2UcZcFylr3Um/kzjl64DYOIWhbhxL47jMTmZgjBqhGbB30N5v+xH8CgonW9C5NybLB7GCucN3SkoB68WwkHL+b1lqrZOIKCYuYvlhucum/NJyoQx2rQMmGmtbD9IeNxY
+    properties :
+     x : 13
+     y : 92
+     width : 125
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_LASTNAME
+    identifier : 0x286e0b880ca50319
+    internal_properties : CAAAAAgAAAB4WIdsSoD3jFRKCskStblJQybbGvjc7cx+n6m2hA9uY3I+MdIHpSRn9h/uo5Vwlw+Tn6YByxGz59XCQSgbS0Y+jqoNOIyTPjwfPQL6nlxtSR91dWSZwlW/gqqTyWGeaMOWY9ZDp7HRU+L91YCmC4SpxaecM8fk7HyQ2CL/47EPHuviYOXlhRIGOFvEnP2g1ZVoJj9Jk85+M5uW3peZ9UXmnqDIBpeJpU63ny6Sxy71tbiAlF/xaJNDOeoH59LKd0Xsr2y7yCSkaowF8oUbefVMyI8lYPUu1aF+2ZEiWRMbtW0CyCIzizW7c3r1YBWG0Fd8bVXb0+fpy1Uqh2jNEBi01G1hICZwH3TUK5REoCLvHlU2ygc5Zb58nIyXeOVjIwe8eSbyaCS7EvdddptWldHbBSh0a5gOC/6Z0daxmjKf4qBKNtpUOBxE+q3+SorwuCCaRczVJwf1vRUtIBBd9RXkCga3bOUfwyrAb96dBSWKsr3wSP0YwmLPqNOkPw==
+    properties :
+     x : 165
+     y : 92
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_FIRSTNAME
+    identifier : 0x286e0b880ca60319
+    internal_properties : CAAAAAgAAAAfN2nnENNdfEuy+OrnldgpTn3HBtmKeIa3biSB4ZThrtXqw4GC4ctULt7NfRbtCFMGPICz9sPK02Qwbp91wn/JHQemPYdm+M86NSdijlsNx4cJzAt8nlwKIBxdpCepPK8n41H9uAfa4Yq0bYIpSRwdYF1duYE3hrNcUeGPWS7oOgOAu7jyw32Ua5Nzj32mKArp9KZeIgfSQ71FA4Zz5Vp4byimrQ9lVUv1K4ZGJZmbrSN0nm1aRr0kyVexDszn8gGpXezM5x3gt1HUfuiuUmQSraDztE52rIBXnFpp5/c+1LWnzdYYoKBzbc/1h8XUmLUkDfQMZAzn+wFLXbCeHFwCW/+GYaa50FlEJGu2HrJ9XNtiSbwvmbeGolhwAfwztm5SE9otGQojWciPguGmuDWPmlx78cLrGZp4uerLBzWLZB/ucI3Urd//lArJB/gLqh2THHvWsFmDe2m1hIsWykaRsTuKQYOhDCMRPy5VmTLdLLX3HH/i+5P7CnLhQFWJci8aKNpW6hn/PRc=
+    properties :
+     x : 165
+     y : 120
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_COMPANY
+    identifier : 0x286e0b880ca70319
+    internal_properties : CAAAAAgAAADbT25uszv3WQ2L7nnj1nzsjvnIoE/Wjvy6/k5IxPob1yqyABMGS0UQjcMjXD5bmUF1FuzS+a36YCCtLK+OX6tmpkiQOf6LmYwXC9mumtjuIRztMLlwD21mgBqAx9Q7zmEWpU4lKXWpOPM9r0OZRttff7YENHbLSNWeUaW8Fi4tFrXnDKDUttm+Atdksfoz+j8UqVkLi+Kx0MA3Y3ZkKAuQZhWq5y20j6ckYKhOsqsx8i3J3sv7Ehn9I1oAQn1XIg+RXZa3ATNyXPla2HtogYX5ywmybQhWNN+nphhMZcClB/uGlnX4jNze200fhAH9V9JWvpNRjrDr7EW9Q8d0jzGjZwbPyJTTdlCelJ+3kmWy4TGx2r+h38ELmjo+rCaEwT1ycsfa4f6XYIKnLmqee64q5Heoxny9Jw9CObYY/4Qgz3+3j5xOI8nUKGIt6GY4rcSt5yS9apc93GuF4FgazcNoF1gdpJGjsjCRJUBKXfWeq+MgUynrSL53ao32Vr4=
+    properties :
+     x : 165
+     y : 148
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Ignore
+    identifier : 0x286e0b880ca80319
+    internal_properties : CAAAAAgAAAAliy2fLMlzyAG/Khhx3Dy+sxbc/K30T2hBaN2ryIyMRijK2Okc10IY9fKd3bjqZ1ysGxbzUVCeR1OFTTehzRy9cSSxR3YaVstN4Bjn7hmSxLZk1wedpUKWc0iHMJtPvhmkyqjg1vGoFYI1faqaFel7b7P1in0dxyt7Y717mpV4vGIbtNglZr6qiZtZIVhiWXvtTvcAPa8G+OCTCMeSXcYI2/6OzKwJi+m4+X8wGJzkWU3RAN4NVVAnamCxkUlCN6RwTOwDMDfBmxWs9sAw0LSrfxZlHF+CeB6+B+7V029zI1sZVu84VJ2lh2luk0b3HA47exHLmJCdF/lkNmvYWEZjhTLnXBa1fxXiifj+k+LwLFRyFoIYY+5Dmtb1bayD35wbnPXapo8bLSacZKA5i9sNY0UfqnrWOcehtZTaWHHN4w80higgVGZUZWLXTkY+80xPihKVw7M1+W05nSvOnSCdu/WoReud/Ir1xHfYASBxKIPKImiphuFxhiJDh6SIr34Pw3Dq68qr2XYDIjpuQpa52hWqwV2CTfU44IEzIQLEhGG1O1vB/ucJQSx93ILPwoYzeY7CuX/Q8CqXB1AtoBX9PZ4xQ3planR/YS0FQiDK0Sp4NwP6ZOunFDAIQnzeEIZBliIH65LbeBG8lbtB5zWUF6xd08keOmirgHuFDIHZjJ47BgxT/5Zto0CDB28mHk+VJQw6U0CIJpfcEiP5KZ2nctnieNR7PubRvEBK344sN8rTGn2v1f9pFwa9GfI63f++jXZQCrobNCJsaOrNZmCUt4HYk0niTI2GGPLrs33Tqa/+USDKIqneaHeJ5kcHwy+uHX5uaI/g+OLYNiL9WU2Xsrfv7st+eMxt8T37chc5q8BRDc+5czZ7RdzdiLsTtAeM62Y+/Nmz7YF5vNakDw==
+    properties :
+     x : 368
+     y : 187
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Close the window
+         SysIconModify(fExeDir() + [fSep] + "fax.ico", "Awaiting call")
+         Close
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Accept
+    identifier : 0x286e0b880ca90319
+    internal_properties : CAAAAAgAAACNY9U3BHmr4LnHUrAZhAUiumRIWFkoUEwvSrESxkNkz6ffDu2IOEiuD0kO9OaYExeJG+7B2Ty+l2uF69+BaZ1QQcz+xK4ym8GilpjfJkXihGZkv92SmgkZbV0DGuW7bEvS9BY24p8pn7LgsAZD1/6A5DItDsFX52oBJ80HDp0gdBKDoBRJrhpWSVvZtWRCYdMFdjsUuZ9a9BijYPNGBeZQU+5qQCBZvz2IyeecZITsQb1RpLqxtUQj0ihpzWWabwQgPGjnJDd1r33UtoR0YGRzrzYB+CvahMJmN3Zp12/7M8MJOisUdMl5z+m+36JHNGbDg223NAhJY+m0VtGdjFLfHTIPvPwR33WyeWaMvVYcACRSKk7Kix4TOm4Pv+J7i2jHyKEO/Ps3Acq4zo4Td5NFt/kzbrzu4Y+tmWoUFrmBv0eUrkjmwKZQkZ6NjIhyNwCfcq4JTXPRZvyoCrYNPK2oppgLrn5wF+cEo+ybBHOe69adbYVg1VDeiSXc3ut/sA2uYhe7mgHazumGr6XhrW+QJdhFGqgVcJb/V/aWuGl5L7TIdsxIVT7eSCP6Z90is/WK8cxAJ80G5lhFNWIr1nv3O9wnCSCjQFKdTxNHmO6Ai2g+jbmoWpkdwp5+PIKUHiDnNIDlcRhZ9ueiCy3/nTueDZqjGY90qM7JblGXGpdnDgSp9CrZdeQ7CTaJ2XUM1AEr6+romT5uRC0yYMVXx1vhMCdgBiIJJIzfukZ0HQSKkbiBCMvJxSDo4m+gZkCvXdTdIZpjdmBVIeuvm/26bXf/FhxzghGAvx0lHu6vFynvVf8W4XDEzYzOiEdQaEdtTMOepfYYNuEampz6Rkp1th3Z3FHc7EzrKX+xoTFpS4HUSDzT/OggLgv9c7pbKmNKQQecO+buLOmj3TmhVH4Mtw==
+    properties :
+     x : 287
+     y : 187
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // The communication is established
+         Info("To answer the call, all you have to do is pick up the phone")
+         
+         SysIconModify(fExeDir() + [fSep] + "fax.ico", "Awaiting call")
+         
+         // Close the window
+         Close
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_PHONE
+    identifier : 0x286e0b880caa0319
+    internal_properties : CAAAAAgAAACw3JJ4eQokV6wZHzN4vvuO7x5km4axI8V0rbt2/vJDQhk0+/kmt+um4mYtX0630k/eGsjrzpXWiUT8ujXRGJ2pub3yeSMkOAk2xT8klh2L18On3OvMCJhcUNRxphMHAherKR3hYLE2i2KkBUCNL8plwLeJRZERKpEcVZ0xAYj+khdmT9zC9SGiR3s/fbGsshZ19ppiIjm+/clxC5iDV2B4N+4SKUNDPcGJEzLMWdflkZeeypGmLJ1qlZ/91NglwDnxczR0qthFEtZL1aMh/yFTauNOw11t3XfoL/24PlC/+b7O5KEj070KlgKozsztQQqZyP9zAzfMnr4qLPMZ4TFbMDKxQKU8TZCpu3KpCUe+xYhdjHteNJz5yxvDwHtEe0uX7uWc2E0ISPV+AXw5hT4UB8fuOJlSMmFN4IFuKtIYiSi9R2jfWLQ+EckIwvPAv7IUU+rpo7QYNhYEU9ZZZyt+koIBTIYgvQ7WVkV4xHcW6/K0QVoFmDYcaxMCZ7wyy4bzASOdkbKWUng=
+    properties :
+     x : 165
+     y : 64
+     width : 271
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ menu :
+  name : _Menu
+  identifier : 0x293f97ae24c0c62e
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABihQogGuh8kdNh+eoFegPegRCd4s/qj40ThjqmrGdp5WNZEdwkdrKEt+PEGNa7659FEh4u8A72NhSi7me90DeM6c8bsXl60qsgEAhwYn6kLybX4jAk9JP4OCb/hqHWUeI=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAB6ZqwnR4KnSVeJvh/Ixf2immVQF/AMFv5NErG+UGF0gCTQZoW0YnHbm16RvytCcfHQiyIEc+xVxLyqmSHcrvRORAyWxqDtkyVhDBR8+j+rvdKV89wJopmsMu7IFBrXAAaaKVKqsUA80bWBO0ApXkD9/uo6YRxngBitHlMOzIX1jDDhEtFV
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow(gnCallID is int)
+   -
+     code : |1-
+      
+      SysIconModify(fExeDir() + [fSep] + "telephon.ico", "Call detected")
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : FindIdentity
+     procedure_id : 1760357183113134873
+     type_code : 14
+     code : |1-
+      PROCEDURE FindIdentity(sPhoneNum is string)
+      	
+      	// Format the phone number
+      	sPhoneNum = Right(NoSpace(sPhoneNum), 9)
+      	
+      	// Search in the address book
+      	HReadSeekFirst(CONTACT, TelOnNine, sPhoneNum)
+      	IF HFound(CONTACT) THEN
+      		STC_LASTNAME 	= CONTACT.Name
+      		STC_FIRSTNAME 	= CONTACT.FirstName
+      		STC_COMPANY = CONTACT.Company
+      		STC_PHONE 	= CONTACT.PhoneNumber
+      	ELSE
+      		STC_LASTNAME 	= "UNKNOWN CONTACT"
+      		STC_FIRSTNAME 	= "UNKNOWN CONTACT"
+      		STC_COMPANY = "UNKNOWN CONTACT"
+      		STC_PHONE 	= tapiCallerID(gnCallID)
+      	END
+     type : 458752
+   -
+     name : CallEnd
+     internal_properties : CAAAAAgAAAD985N3DrAd8FPR5obU+N1dtKtviud2O4wR+zeZEA58TNS77bfyw0wHK1DtUrjUEME42ljRbSK28T6w5ECdY8TnctcFiD+pkWE9Q4Qn2/GIe+JUZ92eFPAbRJpSyGkyYJ2wDrgqS4BD4+AemQPA3XIjM1aC4B/4ATDunizkfO/Zlk2VrePx/UD3Acf76/LYlKho7A==
+     procedure_id : 1760357183113200409
+     type_code : 14
+     code : |1-
+      PROCEDURE CallEnd()
+      
+      	// Display an information message
+      	Message("Communication stopped by your correspondent")
+      	
+      	// Display the wait icon
+      	SysIconModify(fExeDir() + [fSep] + "fax.ico")
+      	
+      	// Send a notification if no reply was made (if the contact is known)
+      	IF gcvConfig.bNotifyEmail AND NOT tapiCallerID(gnCallID) ~= "" THEN	
+      		CallNotification(STC_LASTNAME, STC_FIRSTNAME, STC_COMPANY)	
+      	END
+      	
+      	// Close the window for incoming calls
+      	Close
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenetre_Arrivee_Appel
+resources :
+ string_res :
+  identifier : 0x3c207e927c246e9a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text : {}
+     index : 0
+   -
+     text :
+      en-GB : telephon.ico
+     index : 1
+   -
+     text :
+      en-GB : Call detected
+     index : 2
+   -
+     text :
+      en-GB : UNKNOWN CONTACT
+     index : 3
+   -
+     text :
+      en-GB : Communication stopped by your correspondent
+     index : 4
+   -
+     text :
+      en-GB : fax.ico
+     index : 5
+   -
+     text :
+      en-GB : Awaiting call
+     index : 6
+   -
+     text :
+      en-GB : "To answer the call, all you have to do is pick up the phone"
+     index : 7
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,378 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CONTACT_CALL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : Call a contact
+ subtype : 0
+window :
+ name : WIN_CONTACT_CALL
+ identifier : 0x286e0b870c6afe66
+ internal_properties : CAAAAAgAAABbzVLa1Z5Wpa2a+Xvg2rEuw5wQVKt/D8bu4cdGLEKOIrT9uIre4wQ0p8TTd+pAx1NOqvNhQOYyJ50AbV+VzuWLd3699aBJ+dLViH6UlDrPTW/7I/I/7/a3j7UbawzurA6Tf2HvcmTt4wM6qSwWewshUEu/jOy2uG5t6EmC9zm9xJiHHbkb7QGX7npJNPadWulW4waC3nyWjMkM1KQusxCxX3OM5cKCOWljSBQZI/IbDYNuAQxhBTzjdMlBAl8wYiWKJdhE6wXHLnXuYBrLLGuksXSGgK1sRgmRIQywtb0F50iGEpKXQavYIrzN2IqjeoT/J1o7Mt+JRh88+zzV8acCHC77aOrLyjZ+iZKvqjqjfOoOiudreaXYZNhnqQDk8PzpyxIR/4O2VjAmMAXcyEMliOvGDMNxn3kJPmFeE0qInsyyOOXKA3QqO2TL7WLBCCF1S6XHH9vMQsakgjDUxMPxpHT+yeA0hAUqFfEnqHM7dlBzHv+8NYUfzv87kqToPeIRKaUO04Ez4XzgnoV2WqCxnUWH96+9Gzz4UJQ9CTPOVLaQpImzR4xgr3pkcy6acPjB0kLA51jqmp6PV7nrPTryCvKwAwtva7WQBg6r78FZ9swKGv4ydNyWEjyYfPkKPmmxLXGrx6VTYsFsg+Mue3PN04Sn5ZNvGhdppd1tqAJ8ZfoipkL+QEwqZudvujRsHPJOahrLncdqBjr1enwgo9oOwAQz96Z8+YBDzW9rG0c6FjapBhP1QLPY+h7YtCk+io7eqAFqNrESi50z5WLeKy9Ag4maGqsd9WzQRVI5UBJTgc55HaSPJcFtX3rmMpzL99AJSIjHx/fNYmgY/GnT+bVjxACHk4a31GCiLgfiDjmuXXs1+xlh4fsv9tR2UqI4YBGngRnvEoVdCTAg6p2f+xxNH3RUOPzoSNlRfAiQybEatEIiTweF9+/hKhzvhi3G4Qo2wg==
+ properties :
+  width : 314
+  height : 195
+  widthClient : 312
+  heightClient : 163
+ controls :
+  -
+    name : Stc_Company
+    identifier : 0x286e0b870c6bfe66
+    internal_properties : CAAAAAgAAAD2LkEmbAa0q+Ty6Tq/GkuS9dmyZK3DOdaUW8/cq4ruugg5m68AsekSjEnPZf17MaxLn37wCx0g2QQHv3bD6DUZY3Qzll0PkRbuUw9V0zJU+rc7myqxRpw9goCJOVnaybZj6Yk2TCJ00yF+/2fVKKHfUQWUXKU9zbSBRT6gkETbP+psFp6qyH6YLFmjrTou+JrNY9elD0l9hl1NvfGiRFoTm/wSiYy5WKWYVclMkmSb2Bd0jn+zM/U6rNjLUn43sve0JWI0umyF8TbKlTQ2LEX5H6P9Yr2L9uANjvZsMaN3umETlaZv9puTj1TPyLPhu/7RYS+deg+DGjIKKZ9BniLNIcwwXVm1280sfl3kalwTPMM+WG5BvN+x3Iwg7q7EPlrI9u015Z/Nr7sC/JD34WYkxm8b6oW5imajc1OXtxSJb92TZSHUbt1dw32K7Yer8aol6XboYyoyEyFLZv0Bh/M/SuDmSkRG8WndUhTFYnm/eVw9IYcqiV+xuRQWohr3VXhwmxWcTy0nyPgkgpgmMkcBy18=
+    properties :
+     x : 124
+     y : 6
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Lastname
+    identifier : 0x286e0b870c6cfe66
+    internal_properties : CAAAAAgAAABF+qr9RPYz/fwkdzJVMJut/v9euxVGBnRYlHt5+/sorJScMrjSPZwAsjJ7xynvtVbCfndnX19H9U7L4JT2AE/3yHWfywKb/zEW4mKFQuIDVX4h13w8drchn6XIQlaa2YTPROhN+pLMlRxMENPla85uUVO7YcmD3it6FqCpZo6LlDUFSWpI4uWKbcrGWg2ZYH4I2TS/fWxU1mh2/Sdpgrh7P1bGpS5En6ul3+TtVNMH+Mp0c7A9poaRqWne+dfGA5y5d/bGpcavx4B9/d/a3t7a/UFjEL2PDbvfvkb4a4UAc6mb63yl/IJazSYfLGstyomjj/X7xCG+aXqan03lzu92jbLWwyfrMqBCPF9+4rhS8zuIUFKpSJhKuKSUHqiuo9+i0g0JVwHwYscyboq/fT99iLORkKdrjdHV6yUxouUhC0zcSsyoQBUAFxG4aE8ApdUVtEoWyvUmIDW3zqNsEO6x7jeEcdNxDrg3V7GcrAD/UCQMRkfI5foo02HtBmCzRMc5Mx03PB2EgAskM1MKzPLSTbxE7v7aSEiHrw==
+    properties :
+     x : 124
+     y : 32
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Firstname
+    identifier : 0x286e0b870c6dfe66
+    internal_properties : CAAAAAgAAAAtZmRTcQp+q5277f+yuKyTiZfH/ERTWMPMvgDBTQUMw4EgeD2Yigse4l7Qcev+3l+/IBMfhSv1xHeIz7ISyvZszFBPf4r5QSHljKl+Kqlzx9RFDOFyT+qftsvzJYDYsscIB7Rm7lB13oJap7iFyvAQC/z5PTmjBlSXrXJ1TAzjhpOO3SxctBtkjCAkjYp5eplg2T6l/6vS1cwuSXJb81HNqWPJ98rzzw+4ydoZyduZoxmk0ukcJC2plK2djBP7yQP5mVRsnmZQc4WjIeDjSWB0L9WF0EjpR8bX8XyQu+DJ2Kbm4pFJ0OqFSTJrT/NZjt8s655Nu+Nfn9KWmrkkcK4x3sAD4n41GLBS4BB0LM/c18BZj6qE4eoMtG+m/571lsdypbGBNI1bPbrfgyJbp9sFI7HUUWPAoo1iLLA6TSJi8CqJOAo20k4rFG3PlA5ycRNn6nO2nY8FU1jlwh9i4bapM+/VBEhZGNM05mMnPtBwJ2K2TOHAB1cyAeIsL0oEZo4RB/USbh3OWrEq5Im1lHnjzEp0IHRL15HlpNE0fsr7zTSaRndMSYKK1xwk
+    properties :
+     x : 124
+     y : 58
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Phone
+    identifier : 0x286e0b870c6efe66
+    internal_properties : CAAAAAgAAABpUSugichzIckDl2oX/zkBFil1+Mx01M4aSxyhJ2aGPAWa24ShZ7yevHKDI9/OHK4RlLvE0MTKWOK2vWeP4h22UQiIvC5nwaPXRcINls1sl64S8PO/BwVyLK7siYJjuHRoyz44O3QpeZAIuKM0yjP9m5r5FqwLTGCUHx7JitB7x1tJqqrOfgMZGXjx9N3koKqkC+ku7gUXR88q+2SGINHKuKrh8csYRE1NDSeXRmr8cMeAWKpF30hye8LpxaJcJxLvzKU36KbD1wxewkKBzVG3bEaXS3nPTULXUpJZc2LbeaugDZztiOYJcQWVtBn5kpDh1b1mNRu7/5YNnJBSJBZKVwbQd3KlrK7gj3bzfHVKkt9L4kVuQ2wuHq4cYtr9KuTvDSrmZAELbR7UnelhZzfwmguBJAl2kOd0B84v/7g4JTeRIXUm8oJ3NDhZ3fDeqOs9T9nWvqu/E86I2Lio5aOndTuL+9bb07rz5c6Jr1CPwYSuYxOrliVOXgsbZrYzHUvFjw0mQpOtAITOIodlbSQJaDsNYQHgfOAVegr2Ug==
+    properties :
+     x : 124
+     y : 84
+     width : 180
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Hangup
+    identifier : 0x286e0b870c6ffe66
+    internal_properties : CAAAAAgAAAD50JkOUVmEWvArW2iKLrLnOYvnqZ5TA9dOkZyBUS61iJqyuV5dt/elVri5e0l7vJgY4lHyxndhmj5m2wn/f2P+d2zubvRc9qTFKZfYQYtHwnPTbERxdU3MDQE6izlUxTPn/EzBHNs9MS8esAU3Lopd8Zl9S+0XvPtBDCg5Oh9uxElsJS/CeIHR/Tw+NgwIQf3Q+7LXUmCeEuH1tHXlh9GCTzCC+MEJefUfIiur9Wu/XaseLMj2NVZoWeICNyoXq9yzvE6nkYDnQ+nghPLADYQI6MakvclwV6jgPwCTb0nuo3ozNgXwht6mzV5R9o219duuQqfsbA1Aonibzz81JSlXqRR5huT/y8hfZ9ypalzZx7DWKj+odRqtpSUzv7dz2S+kjYQvRo//VR2DxNEQjOBQfYLiTU2sPAH6bUmf0KriXWN+bTt1jhpblLUsAOFlQ/Z1DaYS5cA7DfWaLxOyNfE5Kcbf76EJjRWNjFoVyT9fmnFuXqxNEbVPr0tKOcoZDt43C0Z7QnTU/9fSR401YBCI3WtMb4q08m0gfixYfqebXVOv3VHX7jHTbwqT7uQJFERLWQ6S12O+3lp35cKvQJOPrwDDhTKxtD4FF1MvTDhy+cZc01sSCq3sSs4EJHTZf8kuAsXV5caICjNKYkEcsA9fFAvBWVptcejAyy1oIw/wGzNYPaT9YTuRj33G/D4F+CX6jJvfmtkri4gt68hKaEhujj1uyA4F0joifR290jmiHhlg61/yfHy3bUb9Ws4i/4+cc7cM/4fFLgOO8fDSvY0pMr1FABAF10uYZ6tOKvlEh4yDal/bzX4Ari0+Ms0nyj0YJxBimlu+fhaE6sblJKllSofqpmidnauzw1l5kwfo7EKZCi7keJ/RDRQjUpvwxQv1KByg/Q7JW4yr27VoSw==
+    properties :
+     x : 229
+     y : 112
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         tapiHangUp()
+         Multitask(-10)
+         Close
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Stc_Company1
+    identifier : 0x286e0b870c70fe66
+    internal_properties : CAAAAAgAAAAXKYBgbOdVR1pDEkuUM48qsu1iIG/Ki30/rdZYCYIOwHlZvGe41AlUCRXfu7ajQtTZpVte8jJEp83jYNfe3YSvUtednSGrAO2ugVhqOHjPfLFpiCbP6hyw9YrHkj2WZKeQ4v1NjEL2IJ3O8Qe0x0L96O97VFh0gRB7aWJcmoJohwpg0zkIutpbhWiN7BIlgxEWckhwGYm0ounK3j0EiApGIL6eNfwlY+iV/0tPuTS//mAlKzT4y4rzpEbh2c5JF8X0qdi2s7adfJZsKS82C3ukpjPPKyGCe6jQA3MY+Ku6wn2T9ZyWfLH/omNc651IsTGIqwsxIQ0BdgPhtJmQAB2JT+2zn0l0WHoUDuMXuRaMH+qkzJ0RZVLQfo7Ki7rlOpc9RaSVtG1Dq1BdYeAlJtZVoSixyhhPP8Y5RZ8LOoG2NYxcrenUd4OYFaF57Lra+bjav8OGYUSf+JVvhETKF3Cfa/gu9/sN8sZNDp4IWk8v5zoL4BbYrpy2pDjixWLNpzNn8Aw=
+    properties :
+     x : 6
+     y : 6
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Name1
+    identifier : 0x286e0b870c71fe66
+    internal_properties : CAAAAAgAAACvtgH++qfk1OQbdfP5RSi2M1bjz78AHzd7PsgfxArGp280yD8uOt2C2pmDrjvw5eOtyfZs6qxq5FhABLF3Jox3DKkLEoXM+j3Wxk1ew5oIPYCTxoX8y4r9361j3zvD8GtNecAMvUlpJVNhnOhcp3sS4C6RE7lSW7k5c2nMmZR5SpZ6EyDEYamimpSu1aF7L69fehJBP+7l/2sBB8tn5aRVEKA0ElvgcYzgZEzUbTCjQnq2YpO0Z2SgfXDPcMlwIyQjgaioWJ+FXTYxHiuEgVoQxyZlqBPiql1gvmqwEj9D1DiE0W9MrpbeSP6xD2/IqiOXcNceITWgmx2+ZfNg0kQvstb3JNPqrZUa5xr/4+zdY32hQi5lyWlF2DWx/XZtO5Eo7tjgGtnyhPJ8MprZEGHvIG2pBdCR2C3LbIQf5BWNAe+NL0R8tTBLxcZAxgJ2vHhLYes7yeE0Xn4VhtITaEoN1PkqbCnetZUk05QNU47Aidx1ral4vZ7k7UW4nT+w7O5bx8IOqQhf85z5vhUcew==
+    properties :
+     x : 6
+     y : 32
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Firstname1
+    identifier : 0x286e0b870c72fe66
+    internal_properties : CAAAAAgAAACzYzs7k3QtWZxY4vMM+U5aGx3otubWsoizmwk8AkPLhAOvmVFS9BCSJ2HUSoz+G83kaOz5EDWjQ5jdaqWeWvHQstzxtSVzt7Zfmrwb/uiIfeilPwfhwUsUDqZtOqYzqAcoQ4WQmTxlmz6mRk8Z+2fQWY6376zCjbs+ZBK/k5l8OdC1DZWk9ratHoJ35ZsIBbONyU77gqdJ0kfYXLBSMRwcoHowQxidyImujm0P1/GvCsQo+GcfpYOP6dp6+uxJpiQexfQDQURBngLaIDAbir7aAUlgQiz4+MnsjVoBzcoBuDw/pFkHolEgWpP90lChWj3/TXSSLu9J+5Pb66Sfm0zRlJni6FYEhufqnqIerAHny4XA4bqSxy40t4lk7chv7LaB3F4Hcq78QSumg26nBhLoZ3974py+Tso8QgvTxhuggDrZU5kQTOAKWGrDgnwIWzcS3JeaedYsZbs3eero26wtorPqt3u9EmkfFEo9q7vE3s6MRFINX5GA5MXC1hUZE4wfA742OmkniDxnIkEiT5GgtQ==
+    properties :
+     x : 6
+     y : 58
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : Stc_Phonenumber1
+    identifier : 0x286e0b870c73fe66
+    internal_properties : CAAAAAgAAABQ69aVvTf3p725ZKh9J/dBuyO9YG0lsAmYUPBAaDA/qKrKB24ALlypGB8rhxaJK7Y7otkC0NLPlirxiVasU2xNqPJFvyw1lXOVuXFZkLPrryI4ox+r0iDZZRd9Fh3ss9qGviipMyTm65zbUBhEScSRNax18ebNm/Hx/DsafMktNjsCrc7CA+CniWaGrd2FonzYgom3CKJH2nRbTnSkcHJume/bJg3s0AvhybNHnL+SmRrEUBsSNXOwVF95SQ2X2bPZF3DzM42iqZAwDUSwookFN2/VioXDnj80efmhYpL+tTTdlxPud9Iodimw6H1XTRzPZWVul2oojYG38tYq1e1qFCFnhiH1y81KVq8yaQduRm3g+sQ9WEPphMbWKGIQbBy601LQTnZ2Oh6rM0HHwWaWsiavcaKsjgUdgxvYrOCUjg3YL36SFqj56zPxpbjva+BEtlIcAGM02JyJ4nI4nXbqgntf/Pv5Z+c94+N99iajQKWl32lKgZ6ROU8K1upHfUS3vw==
+    properties :
+     x : 6
+     y : 84
+     width : 112
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ menu :
+  name : _Menu
+  identifier : 0x293f97911e9e53ae
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAoWzCeYBauj91v9+h7dAHchx6T4MXwgYMVhDikomEdeGpRSTwc3lKcB/uM2EZj6yfprqJijEJK8ojuurNJfHvH6c0Zs3t41K0mFg5qZHymLSTV4DIm6o3yJlSt0OucCxg=
+  controls :
+   -
+     name : Cell1
+     identifier : 0x286e0b870c74fe66
+     internal_properties : CAAAAAgAAAAKAvWr2IWQhcRsKxW+nfJc+35AhPIqdlxqOaIBhCn3opbCPL6iR/muMx3NRXFWUkz7pTD/YEBbIotn9L3Ur3sC3SPYXV0Qz5m6+sAqFw0zaOLHVtXljMxYEg==
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE MyWindow()
+   -
+     code : |1-
+      
+      // Refresh the display
+      FileToScreen(WIN_CONTACT_CALL, CONTACT)
+      
+      // Dial the phone number corresponding to the contact
+      Dial(CONTACT.PhoneNumber)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : CallStatus
+     internal_properties : CAAAAAgAAADiYz012z5enY5O/xgnfQMeGBUqtToHgcgFL1qUiHWgb+aPtelvO1l44TLL+TD09pGEL7EQGsxTVoF5Vlg9PHt+29lBdhbMcaBp4lhTkWyRFsVKCSDT/pHS4IqPyDFEMei1upib8IVOZZpuxt05
+     procedure_id : 1760357178817904230
+     type_code : 14
+     code : |1-
+      // This procedure is called by the WLanguage function named "tapiDial" as CallBack
+      PROCEDURE CallStatus(nCallStatus is int)
+      
+      	// Indicate the status of the connection to the user 
+      	SWITCH nCallStatus
+      		CASE tapiLineBusy : 
+      			// Line busy
+      			Message("The line is busy")
+      	
+      		CASE tapiLineConnected : 
+      			//  Line picked up
+      			Message("Connection established")
+      	
+      		CASE tapiLineDialing : 
+      			// Dialling in progress
+      			Message("Dialing in progress")	
+      	
+      		CASE tapiLineDialTone : 
+      			// Receive the dial tone
+      			Message("Receive the dial tone...")
+      	
+      		CASE tapiLineDisconnected : 
+      			Message("The correspondent has hung up")
+      	
+      		CASE tapiLineProceeding : 
+      			Message("Searching for correspondent")
+      	
+      		CASE tapiLineRingBack : 
+      			Message("Ringing")
+      	
+      		OTHER CASE
+      			
+      	END
+     type : 458752
+   -
+     name : Dial
+     procedure_id : 1760357178817969766
+     type_code : 14
+     code : |1-
+      PROCEDURE Dial(sPhoneNumber is string)
+      	
+      	// Dial the number
+      	IF tapiDial(sPhoneNumber, CallStatus, 15) THEN
+      		// Communication established	
+      		Message("The communication is established")
+      		Info("The communication is established, please pick up")		
+      		RETURN
+      	ELSE
+      		// Error during the composition of the number
+      		IF NoSpace(ErrorInfo()) <> "" THEN
+      			Error(ErrorInfo())
+      			Close
+      		END
+      		
+      		// Check whether the line is busy
+      		IF tapiCallIsBusy() THEN
+      			Info("The line is busy")
+      			Close
+      		END
+      		
+      		// Check whether the correspondent responded
+      		IF tapiNoAnswer() THEN
+      			Info("the correspondent did not respond")
+      			Close
+      		END	
+      	END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenêtre_Appel_Contact
+resources :
+ string_res :
+  identifier : 0x3c33310133e857f8
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text : {}
+     index : 0
+   -
+     text :
+      en-GB : The line is busy
+     index : 1
+   -
+     text :
+      en-GB : Connection established
+     index : 2
+   -
+     text :
+      en-GB : Dialing in progress
+     index : 3
+   -
+     text :
+      en-GB : Receiving the dial tone...
+     index : 4
+   -
+     text :
+      en-GB : The correspondent has hung up
+     index : 5
+   -
+     text :
+      en-GB : Searching for correspondent
+     index : 6
+   -
+     text :
+      en-GB : Ringing
+     index : 7
+   -
+     text :
+      en-GB : CallStatus
+     index : 8
+   -
+     text :
+      en-GB : The communication is established
+     index : 9
+   -
+     text :
+      en-GB : "The communication is established, please pick up"
+     index : 10
+   -
+     text :
+      en-GB : the correspondent did not respond
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

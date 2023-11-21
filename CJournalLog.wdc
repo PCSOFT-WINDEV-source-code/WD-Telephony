@@ -1,0 +1,129 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : cJournalLog
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x3c33224f6a65f0bd
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      CJournalLog is Class
+      	PRIVATE
+      		m_nIdFile 	is int
+      		m_sFileName 	is string
+      		m_bEnabled 		is boolean	
+      END
+     type : 131072
+  procedures :
+   -
+     name : Constructor
+     procedure_id : 4337848590512419005
+     type_code : 27
+     code : |1-
+      PROCEDURE Constructor(sNameLogFile)
+      
+      	m_sFileName = sNameLogFile
+      	m_bEnabled = False 					// the management of a log is not enabled by default
+     type : 589824
+   -
+     name : Destructor
+     procedure_id : 4337848590038331581
+     type_code : 28
+     code : |1-
+      PROCEDURE Destructor()
+      
+      	// Close the log file
+      	IF m_nIdFile > 0 THEN
+      		fClose(m_nIdFile)
+      	END
+     type : 655360
+   -
+     name : AddEvent
+     internal_properties : CAAAAAgAAAAZn89R4jO/DcbaKCqWe6Q9lRaf4TE47BQ538/xFGI4QPQvze9O77hn+yzVojQQ3B1wRmARKX5SQX4cXOCJb0iDekM94GMVhZHFSaaFpRdaWYSKMQNoQsJRLqhstmvgKptynMqY1T51mSqsM7EiSwxBxRwcxhGOe164rB41YzCZmGStuy67g4DbNMdWNLCquEyMiA==
+     procedure_id : 4337848602230193053
+     type_code : 12
+     code : |1-
+      PROCEDURE AddEvent(sMessage1 is string, sMessage2 is string = "") : boolean
+      	
+      	// Open the log file if necessary
+      	IF bOpenLogFile()=False THEN RESULT False
+      	
+      	// Specify the date and time of the event
+      	fWriteLine(:m_nIdFile, "------------------- " + DateToString(Today(), "DDDD DD MMMM") + ... 	
+      								" at " + Left(TimeToString(Now()), 5) + ... 
+      								" -----------------------") 
+      	IF ErrorOccurred THEN RESULT False
+      	
+      	// Add the specified information
+      	IF NoSpace(sMessage1) <> "" THEN 
+      		fWriteLine(m_nIdFile,sMessage1) 
+      		IF ErrorOccurred THEN RESULT False
+      	END
+      	
+      	IF NoSpace(sMessage2) <> "" THEN 
+      		fWriteLine(m_nIdFile,sMessage2)
+      		IF ErrorOccurred THEN RESULT False
+      	END
+      	
+      	fWriteLine(m_nIdFile, "-------------------------" + CR)
+      	IF ErrorOccurred THEN RESULT False
+      
+      // By default, the event is successfully added
+      RESULT True
+     type : 458752
+   -
+     name : bOpenLogFile
+     procedure_id : 4337849067352728769
+     type_code : 12
+     code : |1-
+      PROCEDURE PRIVATE bOpenLogFile() : boolean
+      
+      	// Check whether the name fo the log file is known
+      	IF m_sFileName~="" THEN RESULT False
+      	IF m_bEnabled=False THEN RESULT False
+      	
+      	// Check whether the file is not already opened
+      	IF m_nIdFile <> -1 AND m_nIdFile <> 0 THEN RESULT True
+      	
+      	// Open the file in Add mode 
+      	m_nIdFile = fOpen(fExeDir() + [fSep] + m_sFileName, foCreateIfNotExist + foReadWrite + foAdd)
+      	
+      	// Check the file opening
+      	IF m_nIdFile = -1 THEN RESULT False
+      
+      // The file opening is successfully performed by default
+      RESULT True
+     type : 458752
+   -
+     name : Enabled
+     procedure_id : 4337887154871923636
+     type_code : 12
+     code : |1-
+      PROCEDURE Enabled(bEnabled is boolean)
+      
+      	// Store the activation of the log management
+      	m_bEnabled = bEnabled
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3c334566059904ae
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : " at "
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

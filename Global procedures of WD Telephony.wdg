@@ -1,0 +1,188 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Global procedures of WD Telephony
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x186e0b8c015412f8
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAADYrwgCnocS7GXLLi1RFKO+mWp5yQabvGsYhO28U775OFpjrJI+dmmxvSCMt//aY7bZchOHb4SC/g+TshqvpCJ0bKEA4fDwwEvZYUciv3xTgayeHlhnUS0FntPgqcXsNyzCw1M8zy+ePVmIQCpKUAVBgdM05+1667kqMZ17jyjES/n1BPiP191ouSKP03aXBV0JOIALUoF/B42i9/71xMpWyBvLEj+1OPJ2jYPK89+YXjTlfsE3m49OhgwQ+PlJcl9lotmAcS4F6IZgZRW49Mchz+K7yxjiWK3ND5ph38yOfmZetU9zfBjie1vFhXHd96YIjdZZP4xUGJqbzc6gQ5cQRdpAzuZTrBM7YQ/WjIXLkQ+UGBgXrA==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : LoadConfiguration
+     procedure_id : 1760357200294122232
+     type_code : 15
+     code : |1-
+      PROCEDURE LoadConfiguration()
+      	
+      	// ------------------------- Management of sound -------------------------
+      	gcvConfig.bPlaySounds = LoadParameter("SoundManagement")	
+      	
+      	// --------------------- Management of notification by email ---------
+      	gcvConfig.bNotifyEmail = LoadParameter("NotifyEmail")	
+      	gcvConfig.sSMTPServer = LoadParameter("SMTPServer")	
+      	gcvConfig.sEmailAddress = LoadParameter("EmailAddress")	
+      	gcvConfig.sEmailSubject = LoadParameter("EmailSubject")
+      	
+      	// --------------------- General configuration ---------
+      	
+      	gcvConfig.bMinimizeLoad = LoadParameter("MinimizeLoad")
+      	gcvConfig.bMinimizeClose = LoadParameter("MinimizeClose")
+      	gcvConfig.bLogFile = LoadParameter("LogFile")
+      	
+      	// --------------------- TAPI Configuration    ---------	
+      	gsDevice = LoadParameter("Device")
+     type : 458752
+   -
+     name : SaveConfigutation
+     procedure_id : 1760357200294187768
+     type_code : 15
+     code : |1-
+      PROCEDURE SaveConfigutation()
+      
+      	// ------------------------- Management of sound -------------------------
+      	SaveParameter("SoundManagement", gcvConfig.bPlaySounds)	
+      	
+      	// --------------------- Management of notification by email ---------
+      	SaveParameter("NotifyEmail", gcvConfig.bNotifyEmail)	
+      	SaveParameter("SMTPServer", gcvConfig.sSMTPServer)	
+      	SaveParameter("EmailAddress", gcvConfig.sEmailAddress)	
+      	SaveParameter("EmailSubject", gcvConfig.sEmailSubject)
+      	
+      	// --------------------- General configuration ---------
+      	
+      	SaveParameter("MinimizeLoad", gcvConfig.bMinimizeLoad)
+      	SaveParameter("MinimizeClose", gcvConfig.bMinimizeClose)
+      	SaveParameter("LogFile", gcvConfig.bLogFile)
+      	
+      	// --------------------- TAPI Configuration    ---------	
+      	gsDevice = LoadParameter("Device")
+     type : 458752
+   -
+     name : CallNotification
+     internal_properties : CAAAAAgAAAAI0AKBroa8VvI1loRcaIubJXJbed+ay4Duh7fHg+/LITiban6e07A9YDji+7ARv7R3F2DWh/v0umPrsDzPiT4pS/ertLDGv/Dqqm95ew3SVbtWFjEGwKXAnANrGqv0gOnbcgHyuzSAALAFfvUWi8ZrnsgPkkNobjkKganQYPfvBOIxPBej719ywew+X5MpQibB+ATx
+     procedure_id : 1760357200294253304
+     type_code : 15
+     code : |1-
+      PROCEDURE CallNotification(sName is string,sFirstName is string, sCompany is string)
+      	
+      	// Open a SMTP session (simple sending)
+      	IF EmailStartSMTPSession(NOTIFICATION, gcvConfig.sSMTPServer) THEN
+      		
+      		clJournalLog:AddEvent(<§@3c334877217bfe25000d§>, ErrorInfo())
+      		
+      		EmailReset()
+      		
+      		// Implement the content of he email
+      		Email.Subject = gcvConfig.sEmailSubject
+      		Email.NbRecipient = 1
+      		Email.Recipient[1] = gcvConfig.sEmailAddress
+      		Email.Sender = gcvConfig.sEmailAddress
+      		Email.Message = "Calling from " + sName + " " + sFirstName + CR + ...
+      						"of the company: " + sCompany + CR + ...
+      						" the: " + DateToString(Today(), "DDDD DD MMMM")
+      		
+      		// Send the message				
+      		EmailSendMessage(NOTIFICATION)
+      		IF ErrorOccurred THEN
+      			clJournalLog:AddEvent("Unable to send the message", ErrorInfo())	 
+      		END
+      		
+      	ELSE
+      		clJournalLog:AddEvent("Unable to establish the connection with the SMTP server", ErrorInfo())
+      	END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3c334877217bfe25
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : HKEY_CURRENT_USER\Software\PC SOFT\WD Telephony
+     index : 0
+   -
+     text :
+      en-GB : SoundManagement
+     index : 1
+   -
+     text :
+      en-GB : NotifyEmail
+     index : 2
+   -
+     text :
+      en-GB : SMTPServer
+     index : 3
+   -
+     text :
+      en-GB : EmailAddress
+     index : 4
+   -
+     text :
+      en-GB : EmailSubject
+     index : 5
+   -
+     text :
+      en-GB : MinimizeLoad
+     index : 6
+   -
+     text :
+      en-GB : MinimizeClose
+     index : 7
+   -
+     text :
+      en-GB : LogFile
+     index : 8
+   -
+     text :
+      en-GB : Device
+     index : 9
+   -
+     text :
+      en-GB : Unable to save the current configuration
+     index : 10
+   -
+     text :
+      en-GB : unable to save the current configuration
+     index : 11
+   -
+     text :
+      en-GB : NOTIFICATION
+     index : 12
+   -
+     text :
+      en-GB : Send a notification
+     index : 13
+   -
+     text :
+      en-GB : "Calling from "
+     index : 14
+   -
+     text :
+      en-GB : "of the company: "
+     index : 15
+   -
+     text :
+      en-GB : " the: "
+     index : 16
+   -
+     text :
+      en-GB : Unable to send the message
+     index : 17
+   -
+     text :
+      en-GB : Unable to establish the connection with the SMTP server
+     index : 18
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

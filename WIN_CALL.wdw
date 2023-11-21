@@ -1,0 +1,786 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CALL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CALL
+ identifier : 0x286e0b860c11f9a4
+ internal_properties : CAAAAAgAAAC5pe/c6edUjdNuJZKis+gyYAzGLpKOXHXqXl0cSzhH6KxlmXP/xmkjWi+sKeZJsg3uh6kFT2HG6gmaG5DDnbPvFUrJOX4bUNmRFzwAeXgOOpjOwtxr30b2cx9f+v4JT9uP+RhTU6r3ZnzVgBkjuPpkZmSmDcacOp27LMMp9UDkt4SwNMsIOtaiGQaXdrGVI963nTIkX9MJAGxNjGWaTAaphWOJRZG4gkv56F7s/4w+uMYxoS8+H5Clv1534t0+X6pxPlLfxB6ky1pJRRLWlUpNHp7Uhwj/WKKh5tEYCfpCrtR/SW+WvfumJWiydFkY8b5O7/vUt+/iWHqkC5J/+16W5dtCuuCcUIrHSsY6UKlCUSL/c1HjwtfWSOhDzfsAvh8YemJJAf9a9xj0FNes0dD8dGJ/18sMyrexFG8BExj28T0xrr8r6McgcvJKWnkMDaYOBWTpWcVcQWBakr23/AEiIpfF4podi5AMBMBq2JLy55xL6RRDEOQA9pRa4NocNqWnXtd0rS1bWAL1L6fCXD3U+uUac59MuY3kd7A/cjeNCsLHNvOHyiOqQ3EMeyaRLVmtS653CRvwgdy+VX/00c8M5H/kumhcqAdxF0kbtv55LfuuYTr/Tr5w9HwvTxFu5OOjnynQMo7HiBHlzODZSrewun624b+QrfHInJ0jtp3W+Jmw7+RAn6E2v3C79F75FD2xKq+xkabPUL8yKBxmEv4PRXhc03ETe5Qa+sw8LfWIpb0YfjuX5AAVSprN4zuMheBwilQh9TPR5BDHuBBA+OCwZyBbbCegCQaAUJGrxTAMZ8c4vBevTNlV4bOEwCA=
+ properties :
+  width : 554
+  height : 349
+  widthClient : 552
+  heightClient : 295
+ controls :
+  -
+    name : Table_CONTACT
+    identifier : 0x286e0b860c1df9a4
+    internal_properties : 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
+    properties :
+     x : 6
+     y : 6
+     width : 540
+     height : 229
+    columns :
+     -
+       name : Name
+       identifier : 0x286e0b860c1ef9a4
+       internal_properties : CAAAAAgAAAAolz1UBMp4I7MxYRlATza84zo9y2SUbb9H6PlEJfe1VAB10lt8TCwL3Lg3KTfukkmvSmhyfaSbvUwqdBPiC+jPda39e/rb/NO2XyjRY12HvSz9nMw/A8laaUJP8DefSh7APSxvJ4OmWfLVW7JB31GHBVoFd4Fo6dSeMT+vwPmpk+qV+KNCT2vVhL+XKlzYJGMM9CdTHHJ5LcbycQc1BvdRVZrl2V8xLURIwQk=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACE6LRcZ266RB7LfQt1SYbSWnpo4t/XR0QwzniSWNBWcGePU/U4VweeTNHvCqU8a3Yvl+YWPJanN6ovlJxXM/vBYaxr6PeP9DAM6Dh7yPmue/kwpKcnZ31eRbxJgGV+7tJ5PtCh9Oe4I3dTbilaW3MqnOil2NGD+odx32ovL1kEmqRywRHLZdL33gkUlA3WcXio8TE9UG3c211KJthlSutZ+pZTpx7VbMe+bIJqImf6Ull/l6oyqF4RC25+TaTopbluPge6Jrar/LR8M25aAc2JRyVcuT4sK+wiKMZm8C8xG1zO7WpGlUmidfv2PAel/F9RMMcSGGiYazaI8u2O153ToZdMwTy/GVtwETLFYgG36pOM/Tf8XDa4+lptKDkIS6+vfYtebiRpz5TfU7xzaxeBCdru8wr2UiTWA6SiRzJIkeEuk4Sa8Dxq6qj77q9vz55CD7wAAFsMCgWkaH2h6HOQstpxIAbOBk/8w7jieulOhw8ujyu25bMt+JTlUB8ErQznhQnkwnetoFAW/SwBl/w1yrJzUru2oWXUzlUA6TkUO1FyL6wv5OsiGiz5qH99cCJ8/vs4CmK7CWPYjAMv8eLrFILN+UWUGo6IZjXVtP5CNh+n7ZrkuZOkrq5dGs5zSNo5RFlqHzjvbEhEW2WeCRSlI7jDkHretLvGwtCkjZIdHJVbo6o7d8P0Wl4Dht6+r8h+F1JOM2YrIQxZo5kkb0R8zM2ZJbpah0cUQL+DOAhh3VPJnjVZ5XsOsZDCX1GfoLci37Z3JTcSMHy7Ir/1jxhH5/c6qWOINMDKZFiQ3/rxQBG5/pwyrZ2ZGOxeY+4CYxOydOfYcn/4EqzBimZSnVMSdjMVtCXt2szgCP2t9cBfjFt2Wf8wufJMTM3j9LtbiLOr5DdM7LigOQ0nwXuXw5OkyILbsbUsdGJ6lWGGL/EDRCMF8JD6mc2aUW0bdeQRPpt3LFMlun+W/H4/EPdcrQxdMB3ByFunosas
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : FirstName
+       identifier : 0x286e0b860c1ff9a4
+       internal_properties : CAAAAAgAAABKy8pDYz5aw0G7H4tbRB6WExVRGRIl3i6MgHpqwMFhFjzrN3KQrPdnSC+/z9KXnZudE0mTvIknKvvZWUlTL/IQUpSQLuAylnpS8mqpV9uNNf5dp2nO86CkLeHt2AzG7eBM0a/3MFC5JidgLcCJaQcoAuFNeDESpYRdUpz/mwpg4C9g1eYm/Y2Gf7qSpZhRHS71SfFh05XVuAU1TG/p8NQRA9jvScQfexbCmSbwvQeHNzNuO5mt
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACE6LRcZ266RB7LfQt1SYbSWnpo4t/XR0QwzniSWNBWcGePU/U4VweeTNHvCqU8a3Yvl+YWPJanN6ovlJxXM/vBYaxr6PeP9DAM6Dh7yPmue/kwpKcnZ31eRbxJgGV+7tJ5PtCh9Oe4I3dTbilaW3MqnOil2NGD+odx32ovL1kEmqRywRHLZdL33gkUlA3WcXio8TE9UG3c211KJthlSutZ+pZTpx7VbMe+bIJqImf6Ull/l6oyqF4RC25+TaTopbluPge6Jrar/LR8M25aAc2JRyVcuT4sK+wiKMZm8C8xG1zO7WpGlUmidfv2PAel/F9RMMcSGGiYazaI8u2O153ToZdMwTy/GVtwETLFYgG36pOM/Tf8XDa4+lptKDkIS6+vfYtebiRpz5TfU7xzaxeBCdru8wr2UiTWA6SiRzJIkeEuk4Sa8Dxq6qj77q9vz55CD7wAAFsMCgWkaH2h6HOQstpxIAbOBk/8w7jieulOhw8ujyu25bMt+JTlUB8ErQznhQnkwnetoFAW/SwBl/w1yrJzUru2oWXUzlUA6TkUO1FyL6wv5OsiGiz5qH99cCJ8/vs4CmK7CWPYjAMv8eLrFILN+UWUGo6IZjXVtP5CNh+n7ZrkuZOkrq5dGs5zSNo5RFlqHzjvbEhEW2WeCRSlI7jDkHretLvGwtCkjZIdHJVbo6o7d8P0Wl4Dht6+r8h+F1JOM2YrIQxZo5kkb0R8zM2ZJbpah0cUQL+DOAhh3VPJnjVZ5XsOsZDCX1GfoLci37Z3JTcSMHy7Ir/1jxhH5/c6qWOINMDKZFiQ3/rxQBG5/pwyrZ2ZGOxeY+4CYxOydOfYcn/4EqzBimZSnVMSdjMVtCXt2szgCP2t9cBfjFt2Wf8wufJMTM3j9LtbiLOr5DdM7LigOQ0nwXuXw5OkyILbsbUsdGJ6lWGGL/EDRCMF8JD6mc2aUW0bdeQRPpt3LFMlun+W/H4/EPdcrQxdMB3ByFunosas
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAD3PgtDfqBXUfQhQPgYoCojDGzAcS1Rag+uMUL8vu4YpBYMElAcYdULClAIcI+4rWdG9k28hcueohj1ZkWMWuA=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : Company
+       identifier : 0x286e0b860c20f9a4
+       internal_properties : CAAAAAgAAABlvQ9qt5rbnYUXWQ291YEKfZlgzLTjWlqsTFYqDrWYbmIiB6UcCcaWr3Hk2nA8astf0TqyLRnDz3EDV7My+iFe8cMhow9F5R+940q4QghKPrmh/mD+GA3vK79VMDen0mSPymRtLZS3e8X3giWDo5hiMx7+KQsvC6hKPyf8tfVlNhfEtTpf7CVCLkcwla/GBp2OFiNvIC++hXtfkQri+1iPUBJYhGvq4vFDs61l25YlNNU=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACE6LRcZ266RB7LfQt1SYbSWnpo4t/XR0QwzniSWNBWcGePU/U4VweeTNHvCqU8a3Yvl+YWPJanN6ovlJxXM/vBYaxr6PeP9DAM6Dh7yPmue/kwpKcnZ31eRbxJgGV+7tJ5PtCh9Oe4I3dTbilaW3MqnOil2NGD+odx32ovL1kEmqRywRHLZdL33gkUlA3WcXio8TE9UG3c211KJthlSutZ+pZTpx7VbMe+bIJqImf6Ull/l6oyqF4RC25+TaTopbluPge6Jrar/LR8M25aAc2JRyVcuT4sK+wiKMZm8C8xG1zO7WpGlUmidfv2PAel/F9RMMcSGGiYazaI8u2O153ToZdMwTy/GVtwETLFYgG36pOM/Tf8XDa4+lptKDkIS6+vfYtebiRpz5TfU7xzaxeBCdru8wr2UiTWA6SiRzJIkeEuk4Sa8Dxq6qj77q9vz55CD7wAAFsMCgWkaH2h6HOQstpxIAbOBk/8w7jieulOhw8ujyu25bMt+JTlUB8ErQznhQnkwnetoFAW/SwBl/w1yrJzUru2oWXUzlUA6TkUO1FyL6wv5OsiGiz5qH99cCJ8/vs4CmK7CWPYjAMv8eLrFILN+UWUGo6IZjXVtP5CNh+n7ZrkuZOkrq5dGs5zSNo5RFlqHzjvbEhEW2WeCRSlI7jDkHretLvGwtCkjZIdHJVbo6o7d8P0Wl4Dht6+r8h+F1JOM2YrIQxZo5kkb0R8zM2ZJbpah0cUQL+DOAhh3VPJnjVZ5XsOsZDCX1GfoLci37Z3JTcSMHy7Ir/1jxhH5/c6qWOINMDKZFiQ3/rxQBG5/pwyrZ2ZGOxeY+4CYxOydOfYcn/4EqzBimZSnVMSdjMVtCXt2szgCP2t9cBfjFt2Wf8wufJMTM3j9LtbiLOr5DdM7LigOQ0nwXuXw5OkyILbsbUsdGJ6lWGGL/EDRCMF8JD6mc2aUW0bdeQRPpt3LFMlun+W/H4/EPdcrQxdMB3ByFunosas
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAANxhub1sJ7tYLvU+Mu9otQ4rTfWJ3mtbP9IXyP4YMoVDR2FWwrgQ4S2v0khTjjslzI3bWkBONizaivF6pqFyfDa5ZiHKbiJOU=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : PhoneNumber
+       identifier : 0x286e0b860c21f9a4
+       internal_properties : CAAAAAgAAACj3iQqEBzr5H0gD6RyLy5xH3fXyzyuDo0AR0qBtjAKvJYmAG643bmeyXz2cN/gzbwcKh0Ey5DLeWnUv0f2LS6rJFREwP6R76vxNZPiq9vtMuuvntiPo6VDNUqFM5ZT0LMyaVe24kp/YtbYj27vlLLJLg3BIsS4I2S6NHLIUWKlL8WgmffBPGB8IPYzRiFBK899QFvAj6JMpb56yDMrnixk7Cu6bSNBOfdnlzQpYS9hivlBzyKPIPzfiQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAABIrOgQWzIGmNIvke9JPZLeRmZ07gsDe5DsGpT+BHxqRJsj91muI19e9M0vJm0Ak9rPlwIS/AL3/0oD9Lh3X1vlySyXdHcDtPAEVICXWKX2J4HQwENfq4UeHYiRtL3aho5h5gRVrFMow4fXZo0aT8PGfDg5fMm3Wm/ZezpbV4U8RmxCvfUT0SrfLk30ECXCOSyYSX0B2InE8+1uLnQFppO1ChYn02ZR9M/W2JreigOC3skHu64i/P4xo+rm2aykbX0uTvM+LnLzVJTAa0KCHYVt7+2gHaaAy5QqRE76aMPR55TWuQb2sSmqzVcmiJ8B/Fv54BMWGExIy+Ycenk2O4Uvoae45TRLOWsQtZJhun3Pfgs8sXOMcM6oAva1RNF8mxt/Lc9SfughH7Tjg5CLr1dNyYJ6F+La+gzGZ1wuJy5o/YEm92hSXGQ6GtzLkv9TvzqanzCU+Fe06o0QGHnx5CssAlodjI6Cxj+UH2g+klV2c79Oqxcoc/WDHpbnWiFSo4ZFL6P+tMWvdr5Al0ZbDZr3IOx1tGXMq3MisEdiE//CZX8kWdbhKkWQ4C77srnTbrSSSIUqBOAFpwl6Ll25t0itinzPc88CbFRmoI+/XlToWCVhL7T+Jz3SlMBvDPhZZvTX7vPciZ5B8sbOxccwd5ovgXJNGgxE9nGkJLKuT+ATttN9nRzVFZXKaMBlaPC8vYKMGWzopeylz9pzTTOGDRpWKqfjX0xAWW3icnHVkh5/50EzCC+Ds01k30qMueNtVml4qYBBX/XMboJ95PEnPc4R1Sm8m53eJjYoJqpy+TDfyu/zqPbkcz8vlk7A3WDwsVV4duFCFB2aqAprlBDEaxHUvL1vJreTdFq2Evev/zYl7gHQe8maFyRyqi/V9s0ZjpVRFulO7rayPzN5k6XBqbmm/pz9m89KZqigb8sIof8RdpnX2kpWRXE+NYEvGUC1km+r2IdxboOS+Ho7HONAyWg5bNENfJdjZgrg
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : Dial9
+       identifier : 0x286e0b860c22f9a4
+       internal_properties : CAAAAAgAAABQ2ZUCg1q7ebr7w9qfmSNaBzcpnUylYNoDg4bgBsn0eiBY8izPy69nZEGmyUnglanOA6fR4OlqEv+uDNEbaiJ1/zsJHJC1ply7bMzPRLHsbBaIvOZEAx5ZQQN1ROlBMCh4ctEdwZChZKZLM/rW2TCqKwFv7KrcOJl9mFdG85iXEz38HqsfwsuEPyN0Rk9rLqZPB0pxoADjg+7sUgcCxwwaTOrIGLEDiOwBjcf7iEk7DD21fIVP2iHCFjHJ
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAADjWifMondvIVMAlJyciW2/mMrzQWgeV2vvyrVYRnJuBrJpV84wrxnRUK4t+DDkt23btibxAEfzLu8tQe7i/uKvKrqkqnTJzp8lO18XYw3CA5uAz8rXv4tRNlBlirpTg/98JkSOapc1g7WHlZvivpSsMleJ71ueG8sZB6XH53AEsvFTh5B37c5NpWwAG3P/5XZ+9rB2Gr3y7UbsPSHFShAJ1ctv/0t6bmzKzG1+FmCZyUWHytR68ovVpCbaxoRS7njc/ILNsiX/R96GP6nzP1kzaAv59sxl/feJkCW3T/stz6mzPpPncviUyGS0R78j+039slhgCdbIwopViovQ3MWCB1JscNgo4gzTqv0NtecvtqU0dKGuMQS3UFLIme8vBv0d+tH3GiaN+8JfsJ634znfAP8Gq6DQg0xzyQt5bbxeJgUPO9MoQNp9l4fgSRUk+jsl8a4V3TqgLDdTH2aNAiuYREY8fvbNAyHjHmlWXl7djULkBMF8I6CO1Qq7Wd8hXxOISy7UeDNONRu0+wd9bMpw+7QsiBOGNp5f6A99P3jGwqhAFFwNKkyjlxqn56ci1jtdaISINCi2cNg4LOQXhLTIiercey1As/MzImGOFgGaHwIlhBwgf16Tu/a15eAQWtdehnRKdZRmx7dE27T0yKyOrLLuAo5aAVxhEkDRoUmfSwa/OIj3Q27XaXJ3SUAHHfHdZ8GGpdCSHCXbNSLehrIf1WNA+yYsfLDztFMgji9BTJA3axfR0c6FaEgaCIMg3qKV7X1djcWbcZMzai617oKW6ld5dxcAtyMJklbFe3cj51bHG5ys7eI+485gejx3hSL3SFLk2Lc1ryMjzOkOAN0x1dWu3pVZOYOZ+H3yKxWNbehmajFsU2fdMyl/d7dQqNSikkYkYhxFahLvqXKFVhs1O6DAjTsaP1Fpcx/NRQ7Dtf7nEcjafczIQyYd20jzA2+v6EzrsGf+CkJuUuCkVJ6CTQj4lVR/
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACED6yH1zB+9jEWFqeRbX502SHoHYmyMs5rWCgxzU4yzaW/eajyxi1jIx25BZj+yBn9GwZiIQ7kgRwYTnahrD0RAA==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         
+         CONTACT.TelOnNine = Right(Table_CONTACT.PhoneNumber, 9)
+        type : 20
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : BTN_Call
+    identifier : 0x286e0b860c23f9a4
+    internal_properties : CAAAAAgAAAA5jzDDlnelkP/V8sD5ZtaJpOhoGD8wyNBc+G+0hIEqhejhVJu6/KLY7eEq6PJ+9UG3KWBjsQYMOY1HYvYoUjS3U6JiZM08jxGs4mdEP+P4R7bX7zxGtwni19nnjwk9n+tciBzVs6+Uefde/FoVbaIafCwRD8+W0R4daUSIkbf471Vx10Zyak6sAL/BrbsDP/sXd3Y3VcxWx6hjv8fSlWtB1i9SP0lp4wnO6BGEwW5qVf9He6j+k+P3BziBAlzmmrADDTtCrGfmcYosLbh/E11U1CCDzoRP5VC+M4zjNQEyZw/qx6n7mo0oYKl3mzzLygLOAD9ivuyL1EFUi80FKWmRfKDxTbackof1QcdVEIWoOuYHwJeI6C3kQ7cSh2tfzFHwECAVKa80X9d/DpyBFu9kSjLLaTmVWPj0zrNoptuGHZf8Hh4nlfCrq2nPyCXep6HWfnIwVx4YL180qB+3luXHqt38gThW9qovnu6sNcsX0R/VVkDG+IJcTWn75+h42RcIU+0W4o2aLpnH/CA7TY0iq70P3cqhbIBF0rAJ/zVdWn+1mom+gDoq6tY1cvh8rsbaymPg0WSWTIYEiibdlltW4GdCR3ow0XWzxhZGD4WzB+Cf93iKhy+hKGuZeq8wHpBBvpV6RirfmwCxqQtivfNTYuEhGhjkQFT57I5ko1w2LSNzZbiHjALLEe+irtHu5LJSGkl+87Fz83ZYpj+je91t9sjaDxSk8xI6A2XDR2cjfb6Js+yCLRViQP4mYf4wozPSaZ1uicjdzj1488mPNH6/qpJr+pTf2/GJQfuZ55ubVgD71iAYjm2pptUbdLgeHaLPFtcXT/ZblWkndTsa7wRCqa5BF/MeuMzibIqYdkeOhvoRorISMwjwEOcOV+xhg1B5EOOpGVIuZsiwYeKoCw==
+    properties :
+     x : 471
+     y : 266
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Check whether a contact was selected
+         IF TableSelect(Table_CONTACT) > 0 THEN
+         	
+         	// Dial the phone number corresponding to the contact
+         	Open(WIN_CONTACT_CALL)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_Static1
+    identifier : 0x286e0b860c24f9a4
+    internal_properties : CAAAAAgAAADGKVfFwHz2+/rBys6cgbC4kSEssc7Y5zpg9gCrxqm8eHbI+hFq9lh1E3HM5QilGyKl+OkcjkPrlPqAgxXbHBDH/U+U69HdCtpFpw8kxP70ypZxWDK0qd7vkPuxVpEF/8devc+3UONVS07eQgMszx0rhYAmZMd+7A5JRbF55fxcFIFhCu5s1fW9P5sZex3dkTma1dIAk/wZaio0H1KM6jV9WPrcqy5gwW/3Cpl5vuDXZgopB5sKABWXrg3Ec36XE75AZwp2Z9zmXxa4W6V5XETmqhk2tsc890876P1Y1icAXj3T5hG8+VkJn9Z2C3qpG6t81VR3pG2/ZYC/uhljXVd/ToO86jkciJHwKe/flGRKrppnES5b+TNbWaGl54Y2Q+SMosyid/4GhH7a9omJceCTxCnpc1b+S/tR3V5zM4x1o8jz0PiAZDsgLqSX8dA6l59x0b1YH/9F/e8z+yoiGMEYEw5PviJuqvJU68kJfPHb/Qj3Mk4X82PsL1586XS0WKe8RPVoJhIcJKGJDzraKpWs6/JgLZqCgYhXjjHfh/EO6FviQMxH8MEc9voS//4JPp79AZEYf7nNfA5bun2QjW36VEy3HQ8XhHuEe8BQfx/GrQZMjM7X1MpwXMiSzxfjXdrvlMmFEbsGUStJvN4X4Fn3/LQWO/IAi4JM3GLdhaH+WbBSY8FzpKFbdjUVFMekRoDgVJe1qbOAIfx2UZ6eo7vTQg==
+    properties :
+     x : 6
+     y : 249
+     width : 459
+     height : 40
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_Delete
+    identifier : 0x286e0b860c25f9a4
+    internal_properties : CAAAAAgAAADmziGzEYx+dUwc+HHWNdVEr8n99F0vxgSenOYLKIJShYqdBjV6IJ6LeJT/c3Sa5DngMb2Wcy4Em9/6ruAVd6clHfZXfKPByeh6V3mkAafdsM23i6s8t/nvtbPbElAOqyelYyNDA+zTdcjhf2qNCyD2QXwt4ixDPD3kfIjeVXPAJGq2j29I7mIuFdxa5vyyj2DGy2Yg3Phw3l4dHlui9eTxdnd27DW8+8yD/M1izewpOqGPwyf07RCwgP58Pvo76YquA8kiNBjGj/+ySRUCStillsh8CtIKj4F4VM3XdaqIR0UVh8H7soQw9T9z8vsdnFwixW4qJIqJ+86VBdfUTQcE7YINBrzbPvwITR0JYshcX2sDKq4hKT3XfS7UCWhlbZcnq/L0gK6jiREY5Zb1LkmTb5cERjhtEmOSdxF3GgIU49ZN/A8s/2ITSyErBpApg8V7w3cKiL9tVubqiLZPmia86+hzvsgfASHPTQaxeo3O4U1RD4TewRGRzY4XrmJx0p5JRHlcHuCSaluT2eaan90lWtn0FjqkLcOk44lfTn8V0zl2yJW4hklyknTc6donIcbv5gi2dvcB17yZdzI47N+d9/CNRJDE6/d2CV7325uML8BHmTBZH9cvIFFI147bQjYj4Pn2CDAi1SrNDRtVwGgur4TunBAYBVKLVz1dOgS+PmFW557ruCwD9Yk6YzCQdIXuoTMCxa8n5+dmXS+Lc8OwE36AUrb8Lz1Op2G2Ht9SGtUNPKN7FdZ0EQRQtEdfmhQgptjkWDMgixtrA5ZTBrIh8U2OmQV9/Agux7MVfVliYhW13aNF2UR8KyzTreXzoCHPdeYI48dWWZx6bBltJxTk2X7KnaXfUOn0qx07RwkGaihMU7fVUk0GCWYnHhaIUnv2Lo8GkK1hA3hksCY6LfPOWU/TlA==
+    properties :
+     x : 471
+     y : 237
+     width : 75
+     height : 23
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Is a contact selected in the table
+         IF TableSelect(Table_CONTACT) > 0 THEN
+         
+         	// Ask to confirm the deletion
+         	IF YesNo(No, "Do you want to delete this contact?") = Yes THEN
+         
+         		// The deletion is effective
+         		TableDelete(Table_CONTACT, TableSelect(Table_CONTACT))
+         	END
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x286e0b860c26f9a4
+  internal_properties : CAAAAAgAAAD7mLdZQF+q7mHdqMKqPikgbZvIRhKHk+XchJDgQDTy7FOYGGV23/0wh7s7b/TCoibreIU8/x5Z7fla0MaeFj6J7UBC50UKdiwA3TiAKmVzVwGzpad6KMQRb0C75C6h1ZNEAQyOigek0gfWxdBFzSM6p9hLR4cY8AbFTyjQuvbjjqNDn4YE8L5kPh8aXCN0rJUnLDvKZs+3ywIduxg+LjFejwWek5UGAvfWAECdPZW+e2kmJTpP+YufHGdsBTvr0EiaO2zw1nTrcNotVRNcgu6VEv+gAvYU1+/QP8miX9u9EOdhZohGVNpr
+  options :
+   -
+     name : MENU_Menu
+     identifier : 0x286e0b860c27f9a4
+     internal_properties : CAAAAAgAAACK6rJYtpMcgKYDebRCGt67g779E67nnShuJgANy1W8w3oHLgBCxKMFsoSjPCN4i2Mk2t0PjIcBrLFgao/gLLgRxeGvmLE8IxMhlbQ2S0mMbSsanNSitTIGutlGGGg/LxQeU+0QzFxegwg700h8nryK9soRaSof4FVfldYBiSzlLY95X05AlOJfJRdtvgd9u7EVYpKkqtqvw3MORo4xERiDS2AXSAHOeWprPOm+4NBfu9znq7EoTpA1VLq/esf79o7NM0Rn9cUu9+1VnLhuxOEVQiy48HDK6Ow7y0gL4fglgK8MCENstmD+TJTchrptpXmHAoSs7Lx4BNwFdi0=
+     options :
+      -
+        name : OPT_Log
+        identifier : 0x286e0b860c28f9a4
+        internal_properties : CAAAAAgAAABj1WfqmIXdf+CUs8wid2/aWjAlw5I9I6yOq7WY2oy/8Oc3ZGc8yANLD+OCbiFB49sbFidu5nAzUSc/Pq0ol7SNngGCPh4Rf89LVKDp4fb5gLILQ7zllbo04NAPijLQGR50w5YgwTGI8q4uKwqU1IIp3cjidAN69EU3h4VmDf0gRoju0ZLbxABG1FVLsW5Hsfxmgt2/+k+vPn8ERrkof0DifcmyCGBcJsjMurSkHM6emba2SBhb40CAf9dfbsDoVAJFMurNc++gTnYBYT99sclIxhAcpD8NEvjoH334GqAWv0lj2A01tDkQfl0u2IxU9rp5Q0p2FK5pkNnxKly4
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             ExeRun("notepad.exe " + """" + fExeDir + [fSep] + "calls.log" + """")
+            type : 32
+      -
+        name : OPT_Exit
+        identifier : 0x286e0b860c29f9a4
+        internal_properties : CAAAAAgAAAAAu2ZvtrvaxG0+KcQ4yn65Nv2WoZh6G0j4wDWcgTNJl8pN6ARW2jt6LnhNGpXBT8JQIQQdQGChB4YtIxYUvRe3ENGYmXqJFdxjDqf0HLfPrnPniPRTWnZJd3o5qUbXnREzI0yzTzRyB4tjmoZJIOhMEXl15XvtjeHBvcmTnJdbuQbXzLcnWj9WZIFHQzmafSYJ5D55JTzdk2JBF7aDxOlnSlppv5yiLA7EPSJKbW3XzEaB2veUSAfFwHKiZS3FFymo69zqqFlbWPAK5FpxwBNjbO8XzdDZF1ayvYozOxRvoANxF0fy9PpH4gBmWrZW4QQjLHcTJw==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // End of program
+             gcvConfig.bMinimizeClose = False
+             Close
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : MENU_Options
+     identifier : 0x286e0b860c2af9a4
+     internal_properties : CAAAAAgAAACATiiSUk8fZv1J8vP8o9Wb+6JbQDAFsh1Mh4/+AiM0uYDETbZQAOHI57Qw49tNDnuPtU/UDRt8dK8/KJuzDMotzAWpaGhlmfYBnwt4UaTYPLtEa+0+3fqNBdKNY22Sk0h9brBTNQrH1CjRwQob4uuUpsgMnxkl6t0feuq9nvbdETYYSGBZp/z4Df8cuvzyudCve4322FLDhRmNYPmQsr35pUSj8udiobMc4fbJ0VMzdDRkayu5YpaK/mSEmEzBRi42gveXUjcC+7PDOn4TM1QRuUXeaeDAlX61kpEk7Om93RIVKHbBY+IqqEoqQINeTovgRJURVwczg3k/3UgRJIaL
+     options :
+      -
+        name : OPT_Configuration1
+        identifier : 0x286e0b860c2bf9a4
+        internal_properties : CAAAAAgAAAA9foouQmM8NRCtNtl4L9SJsZDbX93VAuTU3Fdt1O/yMdy0PoLtHkC0Fiv9aDNQAlDE4AcLfEpGBCn9jpUbe0WNzE2axSOhssLUHHe0/0/peJgCFucRgpiQmu+/YFzIybziTAoMVaY7PRaqaw5t2PBMXwwZWEivZvq1bvD+xEjjieQ2K4/6694nthRbZ0eUdYE09F0wPyzTOaWtdh9TKpZ3Pz9a+5VN6vmAO8aMCy2mTH5i/oUGODIbt9qpFneNtDfpMmD8esYIbTS8U0N0woU7puS6gzZy9GX4qiG27ZPc0O+11Kb625qSoisVKMntysAfbN1avQrGqva8QO0uiQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             Open(WIN_CONFIGURATION)
+            type : 32
+      -
+        name : OPT_SEP
+        identifier : 0x286e0b860c2cf9a4
+        internal_properties : CAAAAAgAAAACBkzgrt2VYQIfDs0R0WICwhfkOwCiw756v3m4GJV4cdGWUVlZRZESQ7PF1RiGHsrjc8LujwF+L/Rz3RhQVuJCQdBEoAmlHAviICU4i4PQn4HFbjiNVrqA7DaWBQY+rZLmVtZAaCD2fwckRP4bIDrlWFb4OSpHAhyoBJ7B9Lxrd73qF9UA/wSVjVCOmUuRarFyAFa+bWgfH7nZdCp6RtCCSSMoADUV+0xm5lgc2M4F0Mvu1omLR1Wf3rr9sOPdREQJH3iR9psoopgf8Chd6YBHV8mU7HSY4Ui8N2yOeR72TE4qDVxUN6e+DbQuh1QFcw==
+        code_elements :
+         type_code : 26
+         p_codes : []
+      -
+        name : OPT_eMail_notification
+        identifier : 0x286e0b860c2df9a4
+        internal_properties : CAAAAAgAAADstKRoCrjTeDNhyu1cXXCUk2HvCjlieQre+45ilgK13jKt/DvLAvlMBHodXbsJptDt2B9ShREv23ozM6ZFwxjj9kFegCYUSXGXQGdhLULx35UFIq/mDExlYq+hmm5DRdglN0Fh2o5RAYnbcUFdHU5Chtdn2KMFH0j3i1UjpyGjdVS3qWlca1o+UwGk3Q/3c0SfxrjiNxceYYUQENBgjz6MyI9s6b2v+ySLzzwVXV6q95yTCv+ffU24MejVvZHmGZblaPDhcOhnZttg0wZ6suP5/4iNkSAW2RFodije69INGNIYh3X3DOmszKRuEI1Q+86EAlyz1XJd1CmYIh+RrGZoTNtn
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Uncheck/check option
+             OPT_eMail_notification..Checked = NOT OPT_eMail_notification..Checked
+             gcvConfig.bNotifyEmail = OPT_eMail_notification..Checked
+            type : 32
+      -
+        name : OPT_Active_sounds
+        identifier : 0x286e0b860c2ef9a4
+        internal_properties : CAAAAAgAAACY0CJYi7cs1M2NZISIrzKfZLZfWsVK8HJUMGP1zuTmjxpLOn/YtKW3bLlpL/COSieYp5MPsWNH1AyLHuPzIUrKhShPKDZDctuecdl/F5Rbyv2RO6wfGsI7oMWxfVDqFsB5ZZngx4YIHN4bRh2fLjwwD1HRh9hVkh5EAzMvjjGGj/FU8P5jwkNq7m9CXz0gdYFAouMgiWr6bUf9sAbePRHtg+fWYa+3l22V4tXiRnCSME0VXuOIWiszglb5amf2DpNs32LpGJRPi/HNQ+G4EvGhAGsuV6kDttD3xlHZgIkmC/3paRI0OWjK0VUtEwjGrGYXKAkqGna97IlhiQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             // Uncheck/check option
+             OPT_Active_sounds..Checked = NOT OPT_Active_sounds..Checked
+             gcvConfig.bPlaySounds    = OPT_Active_sounds..Checked
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+   -
+     name : MENU_TAPI_Devices
+     identifier : 0x286e0b860c2ff9a4
+     internal_properties : CAAAAAgAAADxqtyAnJjnAK1O9+my7Zm7JnDdQu9wJ1OJ1rMRL4lK0mBYM2XOnfAI7V48vTNsdY+mBAHweqXyTZW2qwBErnBHzxANIE16nVg3gm3kkQwdDhZEmy2AW1NhwVGZvoZeq5ZIJksJrBegoK2bXSCL3kyf7GZ1JJ0SlXril44FtZfTUWWEY6Wwf+0jX34gIOGmXJZWxhl2yY8mxPRi6OumqwFPcvsl/2ien9NU0P85zxHWdH5+rQ37PFDV343yQQ2kmrzU9DZ59lqKyX5gqSNGMuKU2v4PQ7CwqspbxWm0EGHjoQLgtLZLNJQJZZ5by/DBWrsI+1/9ylJa38i3cRtexb12ENe1Tc7V
+     options :
+      -
+        name : OPT_Select
+        identifier : 0x286e0b860c30f9a4
+        internal_properties : CAAAAAgAAADrNBjz5vZ9JselmBIwPnmnIJriFJNQVt0lVq+CwQZJTCFYaHoiJzb/DGWYgUKHT6IlyBgspeVUoSeX8dP1HiwWjtet2A1RIMw9ctxTYTiUrP7C1tiHcN2gzIrfaMT5qt6i+ubLv5bt65VICoOSoZC+u4t5kJnwZdvymHk/wAdu4uxVQo7rk6nPxNUu6MEA7Mla68dHUD6t65akZCMTBJNJiJqdgb3keTGn4d8Al7XAKziWF92J4xiwW8fiH1WvVhYx7VumnOoG4Lx1iVdk/UUq0JyQ7/FN6vBNJql7CLTdaWqd7HtlqJkKFwA3XbqA3FIdd0Mi2abv
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1-
+             
+             Open(WIN_DEVICE_SELECTION)
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACz5KLpjGKZaXUzhKyN0+Q7x5oN8+DKSuN3jqUZyHgajJqE51f4o4v3c0Ae5tKZ0JcSOgUjgKuf5xtMf95VHU4fEt/w5cJENZiYBZuzXEYIIRWVlhzmHW5bUrYRaui0wg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD6/c0tBl5Fzb2NpSCbxdnsVST5pc+rMXi+MT1lx+K4u+jvGiXm+lK52DkW3oh7HEervP0I3alSdNmFS6fAcz+9uCaFfg==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAD7PT3Fm8nn1hHqh4gkL15fuQv+TLY3d5PxWNP+yAUJwXvuoMA92h3hson/NhSq8xwJ/Mj05qqtUSnYg3RJF+O/Vp6v0sLvb+Fz7V3r19GFTfxGv4Y7IuHQA6Pwi4jgYItaxppgHw+FkyMmx5w=
+     code : |1-
+      PROCEDURE MyWindow()
+      
+      // Add an icon to the taskbar
+      SysIconAdd(fCurrentDir() + [fSep] + "fax.ico", "", "Awaiting call", "IconClick")
+      
+      // Manage the application options
+      HandlingOptions()
+   -
+     internal_properties : CAAAAAgAAAAT5cowKQ9a5r/8v9qcZxhZG23s3ChtMxNHqpt4yAWPl5EUNkAbuFkN2DMTVHA+xS7/Cmqg0BSmaDrBJHkU3KpI4QU4T4kYvIwgQj7IKu7k7t9t7NeeRwqLTEwZsKtN48j5CVsVdlO525w+77Q=
+     code : |1-
+      
+      //  Select the device
+      tapiDevice(gsDevice)
+      
+      // Start the service for call detection
+      // No voice function is used here (recording or reading wav)
+      IF tapiListen(INCOMING_CALL, tapiOptionMediaModeVoice, CallDetection) THEN
+      	// The service for call detection is started
+      	Message("Listening for calls")
+      ELSE
+      	// The service for call detection is not started
+      	Error("Unable to start the call detection", "Details of the error :", ErrorInfo(errMessage), ...
+      		   "Check the selected device (TAPI Device menu)")
+      END
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     internal_properties : CAAAAAgAAAAtBzhzuwi/gtVWk3ywm+7/tec2AH5r79f11C9SXEHpKfdCMAT17n0ddrUzOsBuEwTl6Ni45h5fs/c+vR6XKeW9NIihzKgBkfNZW49FdbOPI6L44eChRFtKCZn6td4KumkIcETS/RFUmF5wkco=
+     code : |1-
+      
+      IF gcvConfig.bMinimizeClose THEN
+      	
+      	// Hide the window
+      	WinStatus(WIN_CALL, Invisible)
+      	
+      	// Cancel closing
+      	ReturnToCapture()
+      END
+      
+      // Stop the service for call detection
+      tapiStopCallDetection(INCOMING_CALL)
+      
+      //Delete the icon from the taskbar
+      SysIconDelete()
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     code : |1-
+      
+      IF WinSize() = MinSize THEN
+      	
+      	// Hide the window
+      	WinStatus(WIN_CALL, Invisible)
+      END
+     type : 13
+  procedures :
+   -
+     name : CallDetection
+     internal_properties : CAAAAAgAAABdj4rTnO7HS/+cZ20Sdx/qtlmPEJrTDPdnj0nxcwm4VAj1CBXK5vC6x9WkpMjCQNV1f5TMy/KQOr5OtbVG//AKNrvv+ZqI5shUnKuLnA+wkl3a30UWnJh34BrocnMY8oNenOTuhU51WZJmf6VcITBdOWqQUoUSN4q8pCIuihE2FGiT0wkXTaC/SfUyH9SUwtGKKz0ontfEE7cqZl/VMZcUaKw=
+     procedure_id : 1760357174522345892
+     type_code : 14
+     code : |1-
+      PROCEDURE CallDetection(nServiceID is int <useful>, nCallID is int, nStatus is int)
+      	
+      	// WARNING:
+      	// The processes performed by this procedure are called from a thread
+      	// The display should be done via the main thread 
+      	
+      	// detection of incoming calls
+      	SWITCH nStatus
+      		// Detect a new call: 
+      		// Note: More information will be available after at least one ring
+      		CASE tapiNewCall : 		
+      			// Notify the main window of a new incoming call in order to open a popup
+      			ExecuteMainThread(CallDetected, nCallID, nStatus)
+      		
+      		// Information about the call is available
+      		CASE tapiCallInformation : 		
+      			// Notify the main window of a new incoming call in order to open a popup
+      			ExecuteMainThread(CallIdentifierDetected, nCallID, nStatus)
+      			
+      		// The line was hung up
+      		CASE tapiLineDisconnected:
+      			// Notify the main window of a new incoming call in order to open a popup
+      			ExecuteMainThread(CallEndDetected, nCallID, nStatus)
+      		
+      	END	
+     type : 458752
+   -
+     name : CallDetected
+     internal_properties : CAAAAAgAAADEFN49INKsyuYRCqBEPCvT4UZ7Zdu+UxSqQ0PzE2OLGSQXQpJi13B59JwWJ1C111zrG0hq0xdU5tcXFGA/nQbB/5uTIJyqV2TOnuHTkef8c9lkENPMOicC4g19LFnmIi8JyNtUAW7CgpZPyJe0rbChVJaZPOmSiBNAS+OS1mHZAuBH9jnBuSH87z4IiWF7tLp1NMi9
+     procedure_id : 1760357174522411428
+     type_code : 14
+     code : |1-
+      PROCEDURE CallDetected(nCallID is int, nStatus is int <useful>)
+      	
+      	// Write the call into the log
+      	clJournalLog:AddEvent("New incoming call detected")
+      	
+      	// Play the associated wave sound
+      	IF fFileExist(fExeDir() + [fSep] + "call_detected.wav") THEN	
+      		
+      		WHEN EXCEPTION IN
+      			IF gcvConfig.bPlaySounds THEN 
+      				Sound(fExeDir() + [fSep] + "call_detected.wav")
+      			END
+      		DO
+      			// No sound card, don't worry
+      		END	
+      	END
+      	
+      	// Give time to the system
+      	Multitask(10)
+      	
+      	// Open a popup window by specifying the identifier of the call
+      	Open(WIN_INCOMING_CALL, nCallID)
+     type : 458752
+   -
+     name : CallEndDetected
+     procedure_id : 1760357174522476964
+     type_code : 14
+     code : |1-
+      PROCEDURE CallEndDetected(nCallID is int <useful>, nStatus is int <useful>)
+      
+      	clJournalLog:AddEvent("End of incoming call detected")
+      	
+      	// If the popup window exists, indicate that the call is over
+      	IF WinStatus(WIN_INCOMING_CALL) <> NotFound THEN
+      		
+      		// The window may have been closed meanwhile
+      		WHEN EXCEPTION IN
+      			WIN_INCOMING_CALL.CallEnd()
+      		DO
+      			// No specific action
+      		END
+      	END
+     type : 458752
+   -
+     name : CallIdentifierDetected
+     procedure_id : 1760357174522542500
+     type_code : 14
+     code : |1-
+      PROCEDURE CallIdentifierDetected(nCallID is int, nStatus is int <useful>)
+      
+      	clJournalLog:AddEvent(<§$0024§>, tapiCallerID(nCallID))
+      	
+      	// Ask to perform a search on the phone number of the contact
+      	
+      	// If the popup window exists, indicate that the call is over
+      	IF WinStatus(WIN_INCOMING_CALL) <> NotFound THEN
+      		
+      		// The window may have been closed meanwhile
+      		WHEN EXCEPTION IN
+      			WIN_INCOMING_CALL.FindIdentity(tapiCallerID(nCallID))
+      		DO
+      		// No specific action
+      		END
+      	END
+     type : 458752
+   -
+     name : IconClick
+     procedure_id : 1760357174522608036
+     type_code : 14
+     code : |1-
+      PROCEDURE IconClick(nMessage)
+      
+      	// React according to the type of mouse operation (click, rollover, and so on)
+      	SWITCH nMessage
+      		CASE WM_LBUTTONDBLCLK		
+      			
+      			// If the main window is invisible, make it visible
+      			IF WinStatus(WIN_CALL) = Invisible THEN
+      				WinStatus(WIN_CALL, Active)
+      			END	
+      		
+      		OTHER CASE
+      			// Default system operating mode
+      	END
+     type : 458752
+   -
+     name : HandlingOptions
+     procedure_id : 1760357174522673572
+     type_code : 14
+     code : |1-
+      PROCEDURE HandlingOptions()
+      	
+      	// Sounds option
+      	OPT_Active_sounds..Checked = gcvConfig.bPlaySounds
+      	
+      	// Notification option
+      	IF gcvConfig.bNotifyEmail = True THEN
+      		
+      		IF gcvConfig.sSMTPServer ~= "" THEN
+      			Info(<§$0025§>)
+      			RETURN
+      		END
+      	END
+      	
+      	OPT_eMail_notification..Checked = gcvConfig.bNotifyEmail
+      	
+      	// Do we want to minimize the application when it is started
+      	IF gcvConfig.bMinimizeLoad THEN
+      		WinStatus(WIN_CALL, Invisible)
+      	END
+      
+      	// Do we want to manage a log file
+      	clJournalLog:Enabled(gcvConfig.bLogFile)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Fenêtre_Appel
+resources :
+ string_res :
+  identifier : 0x3c73d36868f072eb
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Error during the composition of the number
+     index : 0
+   -
+     text :
+      en-GB : Connection established.
+     index : 1
+   -
+     text :
+      en-GB : Communication established
+     index : 2
+   -
+     text :
+      en-GB : The line is busy
+     index : 3
+   -
+     text :
+      en-GB : the correspondent did not respond
+     index : 4
+   -
+     text :
+      en-GB : Unable to manage the popup for call detection
+     index : 5
+   -
+     text :
+      en-GB : Unable to manage the popup for call detection
+     index : 6
+   -
+     text :
+      en-GB : Unable to manage the popup for call detection
+     index : 7
+   -
+     text :
+      en-GB : Awaiting call
+     index : 8
+   -
+     text :
+      en-GB : Unable to manage the reduction of the task
+     index : 9
+   -
+     text :
+      en-GB : Listening for calls
+     index : 10
+   -
+     text :
+      en-GB : Unable to start the call detection
+     index : 11
+   -
+     text :
+      en-GB : "Error details:"
+     index : 12
+   -
+     text :
+      en-GB : The line is busy
+     index : 13
+   -
+     text :
+      en-GB : Connection established
+     index : 14
+   -
+     text :
+      en-GB : Dialing in progress
+     index : 15
+   -
+     text :
+      en-GB : Receiving the dial tone...
+     index : 16
+   -
+     text :
+      en-GB : The correspondent has hung up
+     index : 17
+   -
+     text :
+      en-GB : Searching for correspondent
+     index : 18
+   -
+     text :
+      en-GB : Ringing
+     index : 19
+   -
+     text :
+      en-GB : No current communication
+     index : 20
+   -
+     text :
+      en-GB : CallDetected
+     index : 21
+   -
+     text :
+      en-GB : TelCall
+     index : 22
+   -
+     text :
+      en-GB : CallEndDetected
+     index : 23
+   -
+     text :
+      en-GB : TelcallEnd
+     index : 24
+   -
+     text :
+      en-GB : CallIdentifierDetected
+     index : 25
+   -
+     text :
+      en-GB : TelCallInfo
+     index : 26
+   -
+     text :
+      en-GB : fax.ico
+     index : 27
+   -
+     text :
+      en-GB : IconClick
+     index : 28
+   -
+     text :
+      en-GB : AskForReduction
+     index : 29
+   -
+     text :
+      en-GB : IncomingCall
+     index : 30
+   -
+     text :
+      en-GB : CallDetection
+     index : 31
+   -
+     text :
+      en-GB : Check the selected device (TAPI Device menu)
+     index : 32
+   -
+     text :
+      en-GB : New incoming call detected
+     index : 33
+   -
+     text :
+      en-GB : call_detected.wav
+     index : 34
+   -
+     text :
+      en-GB : End of incoming call detected
+     index : 35
+   -
+     text :
+      en-GB : Caller successfully identified
+     index : 36
+   -
+     text :
+      en-GB : You must define an SMTP server to allow the sending of notifications (Options - > Configuration
+     index : 37
+   -
+     text :
+      en-GB : notepad.exe Calls.log
+     index : 38
+   -
+     text :
+      en-GB : Do you want to delete this contact?
+     index : 39
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
